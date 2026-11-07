@@ -20,7 +20,7 @@ import {
 import { escapeHtml } from "../assets/js/lib/escape.js";
 import { isoDuration, formatMinutes } from "../assets/js/lib/format.js";
 import { slugify } from "../assets/js/lib/slug.js";
-import { faviconSvg, heroSvg, writeIllustration } from "./art.mjs";
+import { faviconSvg, heroSvg } from "./art.mjs";
 import { bookCoverSvg, boxSetCoverSvg, routeMapSvg } from "./covers.mjs";
 import { boxSetQuote, notifyHref, priceLabel } from "../assets/js/lib/shop.js";
 import { adSlot, page } from "./layout.mjs";
@@ -40,7 +40,7 @@ function write(rel, contents) {
 }
 
 function resetGenerated() {
-  for (const dir of ["pancakes", "explore", "books", "map", "learn", "about", "privacy", "terms", "affiliate", "guidelines", "journeys", "assets/images/pancakes"]) {
+  for (const dir of ["pancakes", "explore", "books", "map", "learn", "about", "privacy", "terms", "affiliate", "guidelines", "journeys", "credits", "assets/images/pancakes"]) {
     fs.rmSync(path.join(root, dir), { recursive: true, force: true });
   }
 }
@@ -147,12 +147,13 @@ function searchText(pancake) {
   ].join(" ").toLowerCase();
 }
 
-function og(title, description, url) {
+function og(title, description, url, image) {
+  const src = image || `${ORIGIN}/${pancakes[0].photo}`;
   return `<meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${escapeHtml(url)}">
-  <meta property="og:image" content="${ORIGIN}/assets/images/hero.svg">`;
+  <meta property="og:image" content="${escapeHtml(src)}">`;
 }
 
 function selectOptions(list, blank) {
@@ -191,11 +192,20 @@ function filterForm(countryOptions) {
 
 function card(pancake) {
   const countries = countriesOf(pancake).join(",");
+  const record = pancake.photoRecord;
+  const photo = record.photo;
+  const small = photo.versions["480"];
+  const medium = photo.versions["800"];
+  const kind = record.kind === "place" ? `<span class="photo-kind">${escapeHtml(record.label)}</span> ` : "";
   return `<article class="card" data-slug="${escapeHtml(pancake.slug)}" data-region="${escapeHtml(pancake.region)}" data-type="${escapeHtml(pancake.baseType)}" data-heat="${escapeHtml(pancake.heat)}" data-uses="${escapeHtml(pancake.uses.join(","))}" data-diets="${escapeHtml((pancake.diets || []).join(","))}" data-countries="${escapeHtml(countries)}" data-search="${escapeHtml(searchText(pancake))}">
         <a class="card-media" href="pancakes/${pancake.slug}/">
-          <img src="${pancake.photo}" alt="Illustration of ${escapeHtml(pancake.name)}" width="800" height="520">
+          <picture>
+            <source type="image/webp" srcset="${small.src} 480w, ${medium.src} 800w" sizes="(max-width: 720px) 100vw, 33vw">
+            <img src="${small.src}" alt="${escapeHtml(record.alt)}" width="${small.width}" height="${small.height}" loading="lazy" decoding="async">
+          </picture>
           <span class="badge">${escapeHtml(pancake.country)}</span>
         </a>
+        <p class="photo-credit">${kind}${creditHtml(photo)}</p>
         <div class="card-body">
           <p class="eyebrow">${escapeHtml(pancake.region)} · ${escapeHtml(labelOf(BASE_TYPES, pancake.baseType))}</p>
           <h2><a href="pancakes/${pancake.slug}/">${escapeHtml(pancake.name)}</a></h2>
@@ -302,8 +312,10 @@ function pancakePage(pancake, count, nav) {
     pancakeCount: count,
     canonical: `${ORIGIN}/pancakes/${pancake.slug}/`,
     jsonLd: [pancakeJson(pancake), breadcrumb(pancake)],
-    extraHead: og(pancake.name, description, `${ORIGIN}/pancakes/${pancake.slug}/`),
-    main: `<article id="pancake-root" class="wrap pancake-layout" data-slug="${escapeHtml(pancake.slug)}">
+    extraHead: og(pancake.name, description, `${ORIGIN}/pancakes/${pancake.slug}/`, `${ORIGIN}/${pancake.photo}`),
+    main: `<article id="pancake-root" class="wrap" data-slug="${escapeHtml(pancake.slug)}">
+      ${figureHtml(pancake.photoRecord, { eager: true, className: "pancake-hero pancake-photo", sizes: "(max-width: 1100px) 100vw, 1100px" })}
+      <div class="pancake-layout">
       <div>
         <p class="print-only print-brand">Flying Pancakes of the World</p>
         <p class="eyebrow">Arriving in ${escapeHtml(pancake.place || pancake.locale || pancake.country)}</p>
@@ -360,10 +372,6 @@ function pancakePage(pancake, count, nav) {
         <section id="comments" class="no-print section-rule" aria-label="Comments"></section>
       </div>
       <aside class="rail">
-        <figure class="pancake-photo">
-          <img src="${pancake.photo}" alt="Illustration of ${escapeHtml(pancake.name)}" width="800" height="520">
-          <figcaption>${escapeHtml(pancake.photoCredit)}</figcaption>
-        </figure>
         <div class="origin-card">
           <h2>Origin</h2>
           <dl>
@@ -384,6 +392,7 @@ function pancakePage(pancake, count, nav) {
           <p class="meta">Arrive by ${escapeHtml(nav.vehicleLabel)}${nav.journey ? ` · <a href="journeys/${nav.journey.slug}/">Open the journey</a>` : ""}</p>
         </aside>` : ""}
       </aside>
+      </div>
     </article>`
   });
 }
@@ -399,7 +408,12 @@ function feature(region, copy, pancakes) {
       </a>`;
 }
 
-function explorePage({ title, description, current, crumbs, pancakes, count }) {
+function explorePage({ title, description, current, crumbs, pancakes, count, hero }) {
+  const heroHtml = hero
+    ? `${figureHtml(hero.photoRecord, { eager: true, className: "region-hero", sizes: "(max-width: 1100px) 100vw, 1100px" })}
+      <p class="meta">Lead photograph from the <a href="pancakes/${hero.slug}/">${escapeHtml(hero.name)}</a> page.</p>`
+    : "";
+  const image = hero ? `${ORIGIN}/${hero.photo}` : undefined;
   return page({
     title: `${title} · Flying Pancakes`,
     description,
@@ -407,11 +421,12 @@ function explorePage({ title, description, current, crumbs, pancakes, count }) {
     pageName: "explore",
     pancakeCount: count,
     canonical: crumbs,
-    extraHead: og(title, description, crumbs),
+    extraHead: og(title, description, crumbs, image),
     main: `<div class="wrap">
       ${adSlot("explore_top")}
       <p class="eyebrow">Explore</p>
       <h1>${escapeHtml(title)}</h1>
+      ${heroHtml}
       <p class="lede">${escapeHtml(description)}</p>
       <p class="results-count">${pancakes.length} ${pancakes.length === 1 ? "pancake" : "pancakes"}</p>
       <div class="grid">${pancakes.map(card).join("\n") || "<p>None yet.</p>"}</div>
@@ -432,11 +447,51 @@ function checkboxGroup(name, list) {
 
 resetGenerated();
 validate(SAUCES);
-const pancakes = SAUCES.map((pancake) => ({
-  ...pancake,
-  photo: writeIllustration(root, pancake),
-  photoCredit: "Original illustration for Flying Pancakes of the World."
-}));
+const photoManifest = JSON.parse(fs.readFileSync(path.join(root, "data/photos.json"), "utf8"));
+
+function photoRecord(slug) {
+  const assignment = photoManifest.assignments[slug];
+  if (!assignment) throw new Error(`No photo assignment for ${slug}`);
+  const photo = photoManifest.photos[assignment.photoId];
+  if (!photo?.versions?.["1200"]) throw new Error(`Missing photo file for ${slug}`);
+  return { ...assignment, photo };
+}
+
+function creditHtml(photo) {
+  const license = photo.licenseUrl
+    ? `<a href="${escapeHtml(photo.licenseUrl)}">${escapeHtml(photo.license)}</a>`
+    : escapeHtml(photo.license);
+  return `${escapeHtml(photo.artist)} · ${license} · <a href="${escapeHtml(photo.page)}">Wikimedia Commons</a>`;
+}
+
+function figureHtml(record, { eager = false, className = "photo-figure", sizes = "(max-width: 720px) 100vw, 800px" } = {}) {
+  const photo = record.photo;
+  const small = photo.versions["480"];
+  const medium = photo.versions["800"];
+  const large = photo.versions["1200"];
+  const kind = record.kind === "place" ? `<span class="photo-kind">${escapeHtml(record.label)}</span> ` : "";
+  const priority = eager ? ' fetchpriority="high"' : "";
+  return `<figure class="${className}${record.kind === "place" ? " is-place" : " is-dish"}">
+    <picture>
+      <source type="image/webp" srcset="${small.src} 480w, ${medium.src} 800w, ${large.src} 1200w" sizes="${escapeHtml(sizes)}">
+      <img src="${medium.src}" alt="${escapeHtml(record.alt)}" width="${medium.width}" height="${medium.height}" loading="${eager ? "eager" : "lazy"}" decoding="async"${priority}>
+    </picture>
+    <figcaption>${kind}${escapeHtml(photo.title)} · ${creditHtml(photo)}</figcaption>
+  </figure>`;
+}
+
+function leadOf(list) {
+  return list.find((pancake) => pancake.photoRecord.kind === "dish") || list[0];
+}
+
+const pancakes = SAUCES.map((pancake) => {
+  const record = photoRecord(pancake.slug);
+  return {
+    ...pancake,
+    photoRecord: record,
+    photo: record.photo.versions["1200"].src
+  };
+});
 pancakes.sort((a, b) => a.name.localeCompare(b.name));
 const count = pancakes.length;
 const bySlug = new Map(pancakes.map((pancake) => [pancake.slug, pancake]));
@@ -499,6 +554,10 @@ const features = [
   ["Western Europe", { title: "Crepes, oatcakes, and the griddle", text: "Brittany, the British Isles, and the thin pancakes that use up eggs and fat before Lent." }]
 ].map(([region, copy]) => feature(region, copy, pancakes)).join("\n");
 
+const spotlightSlugs = ["masala-dosa", "injera", "osaka-okonomiyaki", "galette-complete", "poffertjes", "pupusas", "dutch-baby"];
+const spotlight = spotlightSlugs.map((slug) => pancakes.find((pancake) => pancake.slug === slug)).filter((pancake) => pancake && pancake.photoRecord.kind === "dish");
+const heroPancake = spotlight[0] || leadOf(pancakes);
+
 write("index.html", page({
   title: "Flying Pancakes of the World",
   description: homeDesc,
@@ -506,7 +565,7 @@ write("index.html", page({
   pageName: "home",
   pancakeCount: count,
   canonical: `${ORIGIN}/`,
-  extraHead: og("Flying Pancakes of the World", homeDesc, `${ORIGIN}/`) + `
+  extraHead: og("Flying Pancakes of the World", homeDesc, `${ORIGIN}/`, `${ORIGIN}/${heroPancake.photo}`) + `
   <script type="application/ld+json">${JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -528,10 +587,22 @@ write("index.html", page({
           <p class="button-row"><a class="button" href="map/">Open the route map</a> <a class="button button-quiet" href="journeys/">Curated journeys</a></p>
         </div>
         <div class="hero-media">
-          <img src="assets/images/hero.svg" alt="Illustration of a hot air balloon, a plane, a train, and a boat circling a stack of pancakes" width="800" height="520">
+          ${figureHtml(heroPancake.photoRecord, { eager: true, className: "hero-photo", sizes: "(max-width: 900px) 100vw, 46vw" })}
+          <p class="meta"><a href="pancakes/${heroPancake.slug}/">${escapeHtml(heroPancake.name)}</a> · ${escapeHtml(heroPancake.country)}</p>
         </div>
       </section>
       ${adSlot("home_after_hero")}
+      <h2>From the journal</h2>
+      <div class="photo-strip">
+        ${spotlight.map((pancake) => `<article>
+          <a href="pancakes/${pancake.slug}/">
+            <img src="${pancake.photoRecord.photo.versions["480"].src}" alt="${escapeHtml(pancake.photoRecord.alt)}" width="${pancake.photoRecord.photo.versions["480"].width}" height="${pancake.photoRecord.photo.versions["480"].height}" loading="lazy" decoding="async">
+            <h2>${escapeHtml(pancake.name)}</h2>
+            <p class="meta">${escapeHtml(pancake.country)}</p>
+          </a>
+          <p class="photo-credit">${pancake.photoRecord.kind === "place" ? `<span class="photo-kind">${escapeHtml(pancake.photoRecord.label)}</span> ` : ""}${creditHtml(pancake.photoRecord.photo)}</p>
+        </article>`).join("\n")}
+      </div>
       <section class="feature-band" aria-label="Voyage features">
         ${settledCard}
         ${features}
@@ -594,10 +665,21 @@ write("explore/index.html", page({
       <p class="eyebrow">Explore</p>
       <h1>Three ways through the shelf</h1>
       <h2>By region</h2>
-      <div class="explore-grid">${exploreLinks(REGIONS, {
-        href: (key) => `explore/region/${slugify(key)}/`,
-        count: (pancake, key) => pancake.region === key
-      }, ([name]) => name)}</div>
+      <div class="explore-grid">${REGIONS.map(([name]) => {
+        const group = pancakes.filter((pancake) => pancake.region === name);
+        if (!group.length) return "";
+        const lead = leadOf(group);
+        const small = lead.photoRecord.photo.versions["480"];
+        const kind = lead.photoRecord.kind === "place" ? `<span class="photo-kind">${escapeHtml(lead.photoRecord.label)}</span> ` : "";
+        return `<article class="explore-card">
+          <a href="explore/region/${slugify(name)}/">
+            <img src="${small.src}" alt="${escapeHtml(lead.photoRecord.alt)}" width="${small.width}" height="${small.height}" loading="lazy" decoding="async">
+            <p class="eyebrow">${group.length} pancakes</p>
+            <h2>${escapeHtml(name)}</h2>
+          </a>
+          <p class="photo-credit">${kind}${creditHtml(lead.photoRecord.photo)}</p>
+        </article>`;
+      }).join("\n")}</div>
       <h2>By type</h2>
       <div class="explore-grid">${exploreLinks(BASE_TYPES, {
         href: (key) => `explore/type/${key}/`,
@@ -621,7 +703,8 @@ for (const [name] of REGIONS) {
     current: "explore",
     crumbs: url,
     pancakes: group,
-    count
+    count,
+    hero: leadOf(group)
   }));
 }
 for (const [id, label] of BASE_TYPES) {
@@ -733,12 +816,20 @@ write("books/index.html", page({
       <p class="lede">Curated books for a later print or download edition, plus the use-based booklets. You can read and print them now. The buy buttons say coming soon, and every price is a placeholder, not an offer.</p>
       <div class="book-list">
         ${boxCard}
-        ${builtBooks.map((book) => `<a class="book-card" href="books/${book.slug}/">
-          <img src="assets/images/books/${book.slug}.svg" alt="Cover design for ${escapeHtml(book.title)}" width="600" height="800">
-          <p class="eyebrow">${book.members.length} pancakes · ${escapeHtml(priceLabel(book.price, SHOP))}</p>
-          <h2>${escapeHtml(book.title)}</h2>
-          <p>${escapeHtml(book.dek)}</p>
-        </a>`).join("\n")}
+        ${builtBooks.map((book) => {
+          const lead = leadOf(book.members);
+          const small = lead.photoRecord.photo.versions["480"];
+          const kind = lead.photoRecord.kind === "place" ? `<span class="photo-kind">${escapeHtml(lead.photoRecord.label)}</span> ` : "";
+          return `<article class="book-card">
+          <a href="books/${book.slug}/">
+            <img src="${small.src}" alt="${escapeHtml(lead.photoRecord.alt)}" width="${small.width}" height="${small.height}" loading="lazy" decoding="async">
+            <p class="eyebrow">${book.members.length} pancakes · ${escapeHtml(priceLabel(book.price, SHOP))}</p>
+            <h2>${escapeHtml(book.title)}</h2>
+            <p>${escapeHtml(book.dek)}</p>
+          </a>
+          <p class="photo-credit">${kind}${creditHtml(lead.photoRecord.photo)}</p>
+        </article>`;
+        }).join("\n")}
       </div>
     </div>`
 }));
@@ -812,8 +903,9 @@ for (const book of builtBooks) {
     pageName: "book",
     pancakeCount: count,
     canonical: url,
-    extraHead: og(book.title, book.dek, url),
+    extraHead: og(book.title, book.dek, url, `${ORIGIN}/${leadOf(book.members).photo}`),
     main: `<article class="wrap book">
+        ${figureHtml(leadOf(book.members).photoRecord, { eager: true, className: "book-lead", sizes: "(max-width: 1100px) 100vw, 1100px" })}
         <div class="book-hero">
           <img class="cover" src="${coverPath}" alt="Original cover design for ${escapeHtml(book.title)}" width="600" height="800">
           <header class="book-cover">
@@ -838,6 +930,7 @@ for (const book of builtBooks) {
           ${book.members.map((pancake, index) => `<li><a href="pancakes/${pancake.slug}/">${escapeHtml(pancake.name)}</a> · ${escapeHtml(pancake.country)} · <a href="#pancake-${pancake.slug}">recipe ${index + 1}</a></li>`).join("")}
         </ol>
         ${book.members.map((pancake) => `<article class="book-recipe" id="pancake-${pancake.slug}">
+          ${figureHtml(pancake.photoRecord, { className: "book-photo", sizes: "(max-width: 800px) 100vw, 800px" })}
           <p class="meta">${escapeHtml(pancake.country)} · ${escapeHtml(labelOf(HEATS, pancake.heat))} · ${escapeHtml(pancake.yieldText)}</p>
           ${recipeBody(pancake, { book: true }).replace("<h2 class=\"pancake-title\"></h2>", `<h2 class="pancake-title">${escapeHtml(pancake.name)}</h2>`)}
           <p class="no-print"><a href="pancakes/${pancake.slug}/">Open the journal page</a></p>
@@ -888,7 +981,18 @@ write("assets/js/route-data.js", `// Generated by scripts/build-site.mjs. Do not
 
 const journeyCards = JOURNEYS.map((journey) => {
   const stops = journey.stops.map((slug) => bySlug.get(slug)).filter(Boolean);
-  return `<a class="explore-card" href="journeys/${journey.slug}/"><p class="eyebrow">${escapeHtml(VEHICLES[journey.vehicle] || journey.vehicle)} · ${stops.length} stops</p><h2>${escapeHtml(journey.title)}</h2><p>${escapeHtml(journey.dek)}</p></a>`;
+  const lead = leadOf(stops);
+  const small = lead.photoRecord.photo.versions["480"];
+  const kind = lead.photoRecord.kind === "place" ? `<span class="photo-kind">${escapeHtml(lead.photoRecord.label)}</span> ` : "";
+  return `<article class="explore-card">
+    <a href="journeys/${journey.slug}/">
+      <img src="${small.src}" alt="${escapeHtml(lead.photoRecord.alt)}" width="${small.width}" height="${small.height}" loading="lazy" decoding="async">
+      <p class="eyebrow">${escapeHtml(VEHICLES[journey.vehicle] || journey.vehicle)} · ${stops.length} stops</p>
+      <h2>${escapeHtml(journey.title)}</h2>
+      <p>${escapeHtml(journey.dek)}</p>
+    </a>
+    <p class="photo-credit">${kind}${creditHtml(lead.photoRecord.photo)}</p>
+  </article>`;
 }).join("\n");
 
 write("journeys/index.html", page({
@@ -917,14 +1021,19 @@ for (const journey of JOURNEYS) {
     pageName: "static",
     pancakeCount: count,
     canonical: url,
-    main: `<article class="wrap prose">
+    extraHead: og(journey.title, journey.dek, url, `${ORIGIN}/${leadOf(stops).photo}`),
+    main: `<article class="wrap">
         <p class="eyebrow">${escapeHtml(VEHICLES[journey.vehicle] || journey.vehicle)}</p>
         <h1>${escapeHtml(journey.title)}</h1>
+        ${figureHtml(leadOf(stops).photoRecord, { eager: true, className: "journey-hero", sizes: "(max-width: 1100px) 100vw, 1100px" })}
         <p class="dek">${escapeHtml(journey.dek)}</p>
         ${journey.intro.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
         <p><a href="map/#journey-${journey.slug}">See this route on the map</a></p>
-        <ol class="contents">
-          ${stops.map((pancake, index) => `<li><a href="pancakes/${pancake.slug}/">${escapeHtml(pancake.name)}</a> · Arriving in ${escapeHtml(pancake.place || pancake.country)} · stop ${index + 1} of ${stops.length}</li>`).join("")}
+        <ol class="journey-stops">
+          ${stops.map((pancake, index) => `<li>
+            ${figureHtml(pancake.photoRecord, { className: "photo-figure", sizes: "(max-width: 720px) 100vw, 720px" })}
+            <p><a href="pancakes/${pancake.slug}/">${escapeHtml(pancake.name)}</a> · Arriving in ${escapeHtml(pancake.place || pancake.country)} · stop ${index + 1} of ${stops.length}</p>
+          </li>`).join("")}
         </ol>
       </article>`
   }));
@@ -998,7 +1107,7 @@ prosePage({
   paragraphs: [
     `Flying Pancakes of the World is a travel journal of pancakes and their griddled relatives. This issue has ${count} pancakes. The public goal is 1,000. The count on the site is the number of edited entries, and it will change when new entries are added.`,
     "Each stop has a home recipe, a place on the route, a cultural note, a short history, a note on why it tastes this way, an authentic touch, and one to three field notes. If a popular origin story is disputed, the page says so or leaves it out.",
-    "Illustrations are drawn for this site. They are not photographs of people, and they are not borrowed marks. The route map uses Natural Earth country shapes and Leaflet, with no paid map key. It is a sister site to Flying Sauces of the World.",
+    "Photographs are real pictures downloaded from Wikimedia Commons under CC0, CC BY, CC BY-SA, or public domain. Each one carries the photographer and the license. A photograph is used as the dish only when it shows that pancake. When it does not, the page shows a landscape of the place and says so. Book covers and route lines are drawings made for this site. The route map uses Natural Earth country shapes and Leaflet, with no paid map key. Full credits are on the <a href=\"credits/\">photo credits</a> page. It is a sister site to Flying Sauces of the World.",
     "The community tools follow the same pattern as the related project <a href=\"https://jonldavis-coder.github.io/granny-recipes/\">Granny Recipes</a>: comments, hearts, star ratings, and reader submissions. Twists are extra here. Until Supabase is connected, a banner says that those notes stay in the browser.",
     "The site is published by jonldavis-coder and hosted on GitHub Pages from the main branch."
   ]
@@ -1185,6 +1294,51 @@ write("pancake.html", page({
   robots: "noindex",
   pancakeCount: count,
   main: `<div class="wrap"><article id="pancake-root"></article><noscript><p>This page needs JavaScript to show a pancake saved in the browser.</p></noscript></div>`
+}));
+
+const creditGroups = new Map();
+for (const pancake of pancakes) {
+  const photo = pancake.photoRecord.photo;
+  if (!creditGroups.has(photo.id)) creditGroups.set(photo.id, { photo, uses: [] });
+  creditGroups.get(photo.id).uses.push(pancake);
+}
+const creditArticles = [...creditGroups.values()]
+  .sort((a, b) => a.photo.title.localeCompare(b.photo.title))
+  .map(({ photo, uses }) => {
+    const small = photo.versions["480"];
+    const dishUses = uses.filter((pancake) => pancake.photoRecord.kind === "dish");
+    const placeUses = uses.filter((pancake) => pancake.photoRecord.kind === "place");
+    const links = (list) => list.map((pancake) => `<a href="pancakes/${pancake.slug}/">${escapeHtml(pancake.name)}</a>`).join(", ");
+    const lines = [];
+    if (dishUses.length) lines.push(`<p>Photograph of the dish on ${links(dishUses)}.</p>`);
+    if (placeUses.length) lines.push(`<p>Photograph of the place, not the dish, on ${links(placeUses)}.</p>`);
+    return `<article>
+      <img src="${small.src}" alt="${escapeHtml(photo.title)}" width="${small.width}" height="${small.height}" loading="lazy" decoding="async">
+      <div>
+        <h2>${escapeHtml(photo.title)}</h2>
+        <p class="photo-credit">${creditHtml(photo)}</p>
+        ${lines.join("\n")}
+      </div>
+    </article>`;
+  }).join("\n");
+
+write("credits/index.html", page({
+  title: "Photo credits · Flying Pancakes",
+  description: "Every photograph in this journal, with the photographer, the license, and the pages that use it.",
+  current: "about",
+  pageName: "static",
+  pancakeCount: count,
+  canonical: `${ORIGIN}/credits/`,
+  extraHead: og("Photo credits", "Photographers and licenses for every picture in Flying Pancakes of the World.", `${ORIGIN}/credits/`),
+  main: `<article class="wrap">
+      <p class="eyebrow">Wikimedia Commons</p>
+      <h1>Photo credits</h1>
+      <p class="lede">${photoManifest.dishCount} pancake pages use a photograph of that dish. ${photoManifest.placeCount} use a landscape of the place, labeled as the place. ${photoManifest.uniqueCount} photographs in all. Files are stored with this site. Nothing is hotlinked.</p>
+      <p>Licenses are CC0, CC BY, CC BY-SA, or public domain. CC BY and CC BY-SA require credit, which is printed under each picture and again here.</p>
+      <div class="credits-list">
+        ${creditArticles}
+      </div>
+    </article>`
 }));
 
 const urls = [];

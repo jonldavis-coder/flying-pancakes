@@ -95,6 +95,7 @@ export function page({
           <a href="learn/glossary/">Glossary</a>
           <a href="guidelines/">Community guidelines</a>
           <a href="affiliate/">Affiliate disclosure</a>
+          <a href="credits/">Photo credits</a>
           <a href="privacy/">Privacy</a>
           <a href="terms/">Terms</a>
           <a href="submit.html">Submit a pancake</a>
