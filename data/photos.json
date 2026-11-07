@@ -17,11 +17,6 @@
           "src": "assets/photos/buckwheat-pancakes-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/buckwheat-pancakes-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -40,11 +35,6 @@
         },
         "800": {
           "src": "assets/photos/07877-peaches-on-pancake-sanok-2011-jpg-800.webp",
-          "width": 800,
-          "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/07877-peaches-on-pancake-sanok-2011-jpg-1200.webp",
           "width": 800,
           "height": 600
         }
@@ -67,11 +57,6 @@
           "src": "assets/photos/blueberry-pancake-nowhere-man-2025-07-10-jpg-800.webp",
           "width": 800,
           "height": 602
-        },
-        "1200": {
-          "src": "assets/photos/blueberry-pancake-nowhere-man-2025-07-10-jpg-1200.webp",
-          "width": 1200,
-          "height": 903
         }
       }
     },
@@ -86,17 +71,12 @@
         "480": {
           "src": "assets/photos/vegan-lemon-cornmeal-pancakes-4744796520-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/vegan-lemon-cornmeal-pancakes-4744796520-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/vegan-lemon-cornmeal-pancakes-4744796520-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -115,11 +95,6 @@
         },
         "800": {
           "src": "assets/photos/korean-buckwheat-pancake-memiljeon-01-jpg-800.webp",
-          "width": 800,
-          "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/korean-buckwheat-pancake-memiljeon-01-jpg-1200.webp",
           "width": 800,
           "height": 600
         }
@@ -142,11 +117,6 @@
           "src": "assets/photos/020260516-141010-potato-pancakes-with-meat-goulash-jpg-800.webp",
           "width": 800,
           "height": 800
-        },
-        "1200": {
-          "src": "assets/photos/020260516-141010-potato-pancakes-with-meat-goulash-jpg-1200.webp",
-          "width": 1200,
-          "height": 1200
         }
       }
     },
@@ -167,11 +137,6 @@
           "src": "assets/photos/a-funnel-cake-on-a-paper-plate-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/a-funnel-cake-on-a-paper-plate-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -185,18 +150,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/hopi-indian-woman-making-piki-bread-in-the-village-of-oraibi-ca-1900-chs-1248-jp-480.webp",
-          "width": 480,
-          "height": 629
+          "width": 366,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/hopi-indian-woman-making-piki-bread-in-the-village-of-oraibi-ca-1900-chs-1248-jp-800.webp",
-          "width": 800,
-          "height": 1048
-        },
-        "1200": {
-          "src": "assets/photos/hopi-indian-woman-making-piki-bread-in-the-village-of-oraibi-ca-1900-chs-1248-jp-1200.webp",
-          "width": 1200,
-          "height": 1573
+          "width": 610,
+          "height": 800
         }
       }
     },
@@ -217,11 +177,6 @@
           "src": "assets/photos/frybread-taco-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/frybread-taco-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -236,17 +191,12 @@
         "480": {
           "src": "assets/photos/2-22-2025-dutch-baby-pancake-11-of-12-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/2-22-2025-dutch-baby-pancake-11-of-12-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/2-22-2025-dutch-baby-pancake-11-of-12-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -260,18 +210,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/cheese-blintz-with-a-bite-taken-out-of-it-on-a-plate-jpg-480.webp",
-          "width": 480,
-          "height": 637
+          "width": 361,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/cheese-blintz-with-a-bite-taken-out-of-it-on-a-plate-jpg-800.webp",
-          "width": 800,
-          "height": 1062
-        },
-        "1200": {
-          "src": "assets/photos/cheese-blintz-with-a-bite-taken-out-of-it-on-a-plate-jpg-1200.webp",
-          "width": 1200,
-          "height": 1593
+          "width": 602,
+          "height": 800
         }
       }
     },
@@ -292,11 +237,6 @@
           "src": "assets/photos/matzah-brei-bowl-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/matzah-brei-bowl-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -317,11 +257,6 @@
           "src": "assets/photos/swedish-pancake-with-blackberries-and-raspberies-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/swedish-pancake-with-blackberries-and-raspberies-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -336,17 +271,12 @@
         "480": {
           "src": "assets/photos/wild-rice-pancakes-png-480.webp",
           "width": 480,
-          "height": 281
+          "height": 280
         },
         "800": {
           "src": "assets/photos/wild-rice-pancakes-png-800.webp",
           "width": 800,
           "height": 468
-        },
-        "1200": {
-          "src": "assets/photos/wild-rice-pancakes-png-1200.webp",
-          "width": 1200,
-          "height": 703
         }
       }
     },
@@ -367,11 +297,6 @@
           "src": "assets/photos/banana-pancakes-pk021-jpg-800.webp",
           "width": 800,
           "height": 800
-        },
-        "1200": {
-          "src": "assets/photos/banana-pancakes-pk021-jpg-1200.webp",
-          "width": 843,
-          "height": 843
         }
       }
     },
@@ -385,16 +310,11 @@
       "versions": {
         "480": {
           "src": "assets/photos/paleo-pumpkin-pancakes-with-caramel-sauce-27118429873-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 359,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/paleo-pumpkin-pancakes-with-caramel-sauce-27118429873-jpg-800.webp",
-          "width": 575,
-          "height": 767
-        },
-        "1200": {
-          "src": "assets/photos/paleo-pumpkin-pancakes-with-caramel-sauce-27118429873-jpg-1200.webp",
           "width": 575,
           "height": 767
         }
@@ -417,11 +337,6 @@
           "src": "assets/photos/bacon-maple-pancakes-trading-post-coffee-roasters-2026-02-24-jpg-800.webp",
           "width": 800,
           "height": 602
-        },
-        "1200": {
-          "src": "assets/photos/bacon-maple-pancakes-trading-post-coffee-roasters-2026-02-24-jpg-1200.webp",
-          "width": 1200,
-          "height": 903
         }
       }
     },
@@ -442,11 +357,6 @@
           "src": "assets/photos/bannockberemeal-jpg-800.webp",
           "width": 500,
           "height": 325
-        },
-        "1200": {
-          "src": "assets/photos/bannockberemeal-jpg-1200.webp",
-          "width": 500,
-          "height": 325
         }
       }
     },
@@ -460,16 +370,11 @@
       "versions": {
         "480": {
           "src": "assets/photos/pancakes-for-shrove-tuesday-jpg-480.webp",
-          "width": 480,
-          "height": 624
+          "width": 368,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/pancakes-for-shrove-tuesday-jpg-800.webp",
-          "width": 585,
-          "height": 761
-        },
-        "1200": {
-          "src": "assets/photos/pancakes-for-shrove-tuesday-jpg-1200.webp",
           "width": 585,
           "height": 761
         }
@@ -486,17 +391,12 @@
         "480": {
           "src": "assets/photos/2017-03-16-homemade-crumpets-trimingham-jpg-480.webp",
           "width": 480,
-          "height": 428
+          "height": 427
         },
         "800": {
           "src": "assets/photos/2017-03-16-homemade-crumpets-trimingham-jpg-800.webp",
           "width": 800,
           "height": 713
-        },
-        "1200": {
-          "src": "assets/photos/2017-03-16-homemade-crumpets-trimingham-jpg-1200.webp",
-          "width": 1200,
-          "height": 1070
         }
       }
     },
@@ -511,17 +411,12 @@
         "480": {
           "src": "assets/photos/foley-oatcakes-jpg-480.webp",
           "width": 480,
-          "height": 221
+          "height": 220
         },
         "800": {
           "src": "assets/photos/foley-oatcakes-jpg-800.webp",
           "width": 800,
-          "height": 369
-        },
-        "1200": {
-          "src": "assets/photos/foley-oatcakes-jpg-1200.webp",
-          "width": 1200,
-          "height": 553
+          "height": 368
         }
       }
     },
@@ -535,18 +430,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/stack-of-scotch-pancakes-10371556853-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/stack-of-scotch-pancakes-10371556853-jpg-800.webp",
-          "width": 800,
-          "height": 1067
-        },
-        "1200": {
-          "src": "assets/photos/stack-of-scotch-pancakes-10371556853-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -567,11 +457,6 @@
           "src": "assets/photos/crempog-anglesey-style-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/crempog-anglesey-style-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -592,11 +477,6 @@
           "src": "assets/photos/ansolas-boxty-jpg-800.webp",
           "width": 800,
           "height": 625
-        },
-        "1200": {
-          "src": "assets/photos/ansolas-boxty-jpg-1200.webp",
-          "width": 1200,
-          "height": 938
         }
       }
     },
@@ -617,11 +497,6 @@
           "src": "assets/photos/ben-w-bell-soda-bread-farl-05-june-2007-jpg-800.webp",
           "width": 733,
           "height": 481
-        },
-        "1200": {
-          "src": "assets/photos/ben-w-bell-soda-bread-farl-05-june-2007-jpg-1200.webp",
-          "width": 733,
-          "height": 481
         }
       }
     },
@@ -635,18 +510,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/oatmeal-pancake-with-fruit-jpg-480.webp",
-          "width": 480,
-          "height": 600
+          "width": 384,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/oatmeal-pancake-with-fruit-jpg-800.webp",
-          "width": 800,
-          "height": 1000
-        },
-        "1200": {
-          "src": "assets/photos/oatmeal-pancake-with-fruit-jpg-1200.webp",
-          "width": 1080,
-          "height": 1350
+          "width": 640,
+          "height": 800
         }
       }
     },
@@ -665,11 +535,6 @@
         },
         "800": {
           "src": "assets/photos/crepe-jpg-800.webp",
-          "width": 604,
-          "height": 453
-        },
-        "1200": {
-          "src": "assets/photos/crepe-jpg-1200.webp",
           "width": 604,
           "height": 453
         }
@@ -692,11 +557,6 @@
           "src": "assets/photos/galette-de-sarrasin-saint-gervais-les-bains-p1070980-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/galette-de-sarrasin-saint-gervais-les-bains-p1070980-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -710,18 +570,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/galette-compl-te-in-annecy-france-20130714-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/galette-compl-te-in-annecy-france-20130714-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/galette-compl-te-in-annecy-france-20130714-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -742,11 +597,6 @@
           "src": "assets/photos/crepesuzette-20220506-202934-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/crepesuzette-20220506-202934-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -761,17 +611,12 @@
         "480": {
           "src": "assets/photos/ficelle-picarde-01-jpg-480.webp",
           "width": 480,
-          "height": 323
+          "height": 322
         },
         "800": {
           "src": "assets/photos/ficelle-picarde-01-jpg-800.webp",
           "width": 800,
           "height": 538
-        },
-        "1200": {
-          "src": "assets/photos/ficelle-picarde-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 808
         }
       }
     },
@@ -792,11 +637,6 @@
           "src": "assets/photos/socca-01-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/socca-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -811,17 +651,12 @@
         "480": {
           "src": "assets/photos/2015-01-spekpannenkoek-jpg-480.webp",
           "width": 480,
-          "height": 349
+          "height": 348
         },
         "800": {
           "src": "assets/photos/2015-01-spekpannenkoek-jpg-800.webp",
           "width": 800,
           "height": 581
-        },
-        "1200": {
-          "src": "assets/photos/2015-01-spekpannenkoek-jpg-1200.webp",
-          "width": 1200,
-          "height": 872
         }
       }
     },
@@ -842,11 +677,6 @@
           "src": "assets/photos/poffertjes-melkhuis-jpg-800.webp",
           "width": 800,
           "height": 532
-        },
-        "1200": {
-          "src": "assets/photos/poffertjes-melkhuis-jpg-1200.webp",
-          "width": 1200,
-          "height": 798
         }
       }
     },
@@ -867,11 +697,6 @@
           "src": "assets/photos/ggakaka-jpg-800.webp",
           "width": 800,
           "height": 532
-        },
-        "1200": {
-          "src": "assets/photos/ggakaka-jpg-1200.webp",
-          "width": 1200,
-          "height": 798
         }
       }
     },
@@ -892,11 +717,6 @@
           "src": "assets/photos/raggmunk-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/raggmunk-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -910,18 +730,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/kolbulle-2020-12-26a-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/kolbulle-2020-12-26a-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/kolbulle-2020-12-26a-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -936,17 +751,12 @@
         "480": {
           "src": "assets/photos/11-aebleskiver-with-salted-greens-lovage-parsley-and-crickets-15297668039-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/11-aebleskiver-with-salted-greens-lovage-parsley-and-crickets-15297668039-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/11-aebleskiver-with-salted-greens-lovage-parsley-and-crickets-15297668039-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -965,11 +775,6 @@
         },
         "800": {
           "src": "assets/photos/aland-pancake-jpg-800.webp",
-          "width": 800,
-          "height": 601
-        },
-        "1200": {
-          "src": "assets/photos/aland-pancake-jpg-1200.webp",
           "width": 800,
           "height": 601
         }
@@ -992,11 +797,6 @@
           "src": "assets/photos/frische-selbstgemachte-reibekuchen-8786-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/frische-selbstgemachte-reibekuchen-8786-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -1017,11 +817,6 @@
           "src": "assets/photos/2015-0731-kaiserschmarrn-apfelso-e-edelweissh-tte-s-lden-jpg-800.webp",
           "width": 800,
           "height": 640
-        },
-        "1200": {
-          "src": "assets/photos/2015-0731-kaiserschmarrn-apfelso-e-edelweissh-tte-s-lden-jpg-1200.webp",
-          "width": 1200,
-          "height": 960
         }
       }
     },
@@ -1042,11 +837,6 @@
           "src": "assets/photos/topfenpalatschinken-jpg-800.webp",
           "width": 800,
           "height": 526
-        },
-        "1200": {
-          "src": "assets/photos/topfenpalatschinken-jpg-1200.webp",
-          "width": 1200,
-          "height": 789
         }
       }
     },
@@ -1067,11 +857,6 @@
           "src": "assets/photos/blini-tanya-jpg-800.webp",
           "width": 800,
           "height": 580
-        },
-        "1200": {
-          "src": "assets/photos/blini-tanya-jpg-1200.webp",
-          "width": 1200,
-          "height": 870
         }
       }
     },
@@ -1086,17 +871,12 @@
         "480": {
           "src": "assets/photos/buckwheat-blini-28309205447-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/buckwheat-blini-28309205447-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/buckwheat-blini-28309205447-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -1111,17 +891,12 @@
         "480": {
           "src": "assets/photos/oladyi-buckwheat2-jpg-480.webp",
           "width": 480,
-          "height": 401
+          "height": 400
         },
         "800": {
           "src": "assets/photos/oladyi-buckwheat2-jpg-800.webp",
           "width": 800,
           "height": 668
-        },
-        "1200": {
-          "src": "assets/photos/oladyi-buckwheat2-jpg-1200.webp",
-          "width": 1200,
-          "height": 1002
         }
       }
     },
@@ -1142,11 +917,6 @@
           "src": "assets/photos/russyrnikikissel-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/russyrnikikissel-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -1167,11 +937,6 @@
           "src": "assets/photos/nalysnyky-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/nalysnyky-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -1192,11 +957,6 @@
           "src": "assets/photos/08584-ukrainische-deruny-kartoffelpuffer-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/08584-ukrainische-deruny-kartoffelpuffer-jpg-1200.webp",
-          "width": 800,
-          "height": 600
         }
       }
     },
@@ -1211,17 +971,12 @@
         "480": {
           "src": "assets/photos/placki-ziemniaczane-2023-04-14-jpg-480.webp",
           "width": 480,
-          "height": 470
+          "height": 469
         },
         "800": {
           "src": "assets/photos/placki-ziemniaczane-2023-04-14-jpg-800.webp",
           "width": 800,
           "height": 783
-        },
-        "1200": {
-          "src": "assets/photos/placki-ziemniaczane-2023-04-14-jpg-1200.webp",
-          "width": 1200,
-          "height": 1175
         }
       }
     },
@@ -1242,11 +997,6 @@
           "src": "assets/photos/potrawy-regionalne-racuchy-na-konferencji-wikipedia-na-kurpiowszczy-nie-jpg-800.webp",
           "width": 800,
           "height": 525
-        },
-        "1200": {
-          "src": "assets/photos/potrawy-regionalne-racuchy-na-konferencji-wikipedia-na-kurpiowszczy-nie-jpg-1200.webp",
-          "width": 1200,
-          "height": 788
         }
       }
     },
@@ -1261,17 +1011,12 @@
         "480": {
           "src": "assets/photos/00-potato-latkes-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/00-potato-latkes-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/00-potato-latkes-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -1290,11 +1035,6 @@
         },
         "800": {
           "src": "assets/photos/gundel-palacsinta-at-gundel-jpg-800.webp",
-          "width": 800,
-          "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/gundel-palacsinta-at-gundel-jpg-1200.webp",
           "width": 800,
           "height": 600
         }
@@ -1317,11 +1057,6 @@
           "src": "assets/photos/hortob-gyi-palacsinta-2-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/hortob-gyi-palacsinta-2-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -1340,11 +1075,6 @@
         },
         "800": {
           "src": "assets/photos/l-vance-dish-251561633-jpg-800.webp",
-          "width": 640,
-          "height": 640
-        },
-        "1200": {
-          "src": "assets/photos/l-vance-dish-251561633-jpg-1200.webp",
           "width": 640,
           "height": 640
         }
@@ -1367,11 +1097,6 @@
           "src": "assets/photos/clatite-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/clatite-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -1390,11 +1115,6 @@
         },
         "800": {
           "src": "assets/photos/palachinki-pancake-jpg-800.webp",
-          "width": 600,
-          "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/palachinki-pancake-jpg-1200.webp",
           "width": 600,
           "height": 450
         }
@@ -1417,11 +1137,6 @@
           "src": "assets/photos/belorussian-national-potato-meal-draniki-and-a-cup-of-drink-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/belorussian-national-potato-meal-draniki-and-a-cup-of-drink-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -1440,11 +1155,6 @@
         },
         "800": {
           "src": "assets/photos/flija-jpg-800.webp",
-          "width": 604,
-          "height": 453
-        },
-        "1200": {
-          "src": "assets/photos/flija-jpg-1200.webp",
           "width": 604,
           "height": 453
         }
@@ -1467,11 +1177,6 @@
           "src": "assets/photos/as-filloas-24631260401-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/as-filloas-24631260401-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -1492,11 +1197,6 @@
           "src": "assets/photos/frixuelos-fayuelos-jpg-800.webp",
           "width": 800,
           "height": 607
-        },
-        "1200": {
-          "src": "assets/photos/frixuelos-fayuelos-jpg-1200.webp",
-          "width": 1200,
-          "height": 911
         }
       }
     },
@@ -1517,11 +1217,6 @@
           "src": "assets/photos/desayuno-con-tortitas-en-becerril-de-la-sierra-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/desayuno-con-tortitas-en-becerril-de-la-sierra-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -1535,18 +1230,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/chipiona-bodega-el-castillito-tortillitas-de-camarones-y-tinto-de-verano-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/chipiona-bodega-el-castillito-tortillitas-de-camarones-y-tinto-de-verano-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/chipiona-bodega-el-castillito-tortillitas-de-camarones-y-tinto-de-verano-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -1567,11 +1257,6 @@
           "src": "assets/photos/bidart-taloa-jpg-800.webp",
           "width": 800,
           "height": 532
-        },
-        "1200": {
-          "src": "assets/photos/bidart-taloa-jpg-1200.webp",
-          "width": 1200,
-          "height": 798
         }
       }
     },
@@ -1586,17 +1271,12 @@
         "480": {
           "src": "assets/photos/bocadillo-de-tortilla-de-patatas-34-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/bocadillo-de-tortilla-de-patatas-34-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/bocadillo-de-tortilla-de-patatas-34-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -1617,11 +1297,6 @@
           "src": "assets/photos/rabanadas-christmas-cakes-2135990222-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/rabanadas-christmas-cakes-2135990222-jpg-1200.webp",
-          "width": 800,
-          "height": 533
         }
       }
     },
@@ -1635,18 +1310,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/farinata-spinach-artichoke-courgette-superstraccia-caccia-and-tails-2025-05-26-j-480.webp",
-          "width": 480,
-          "height": 637
+          "width": 361,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/farinata-spinach-artichoke-courgette-superstraccia-caccia-and-tails-2025-05-26-j-800.webp",
-          "width": 800,
-          "height": 1062
-        },
-        "1200": {
-          "src": "assets/photos/farinata-spinach-artichoke-courgette-superstraccia-caccia-and-tails-2025-05-26-j-1200.webp",
-          "width": 1200,
-          "height": 1593
+          "width": 602,
+          "height": 800
         }
       }
     },
@@ -1667,11 +1337,6 @@
           "src": "assets/photos/piadina-jpg-800.webp",
           "width": 800,
           "height": 786
-        },
-        "1200": {
-          "src": "assets/photos/piadina-jpg-1200.webp",
-          "width": 1200,
-          "height": 1179
         }
       }
     },
@@ -1692,11 +1357,6 @@
           "src": "assets/photos/ethiopie-injera-grill-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/ethiopie-injera-grill-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -1715,11 +1375,6 @@
         },
         "800": {
           "src": "assets/photos/eritrean-injera-with-stews-jpg-800.webp",
-          "width": 539,
-          "height": 338
-        },
-        "1200": {
-          "src": "assets/photos/eritrean-injera-with-stews-jpg-1200.webp",
           "width": 539,
           "height": 338
         }
@@ -1742,11 +1397,6 @@
           "src": "assets/photos/lahohs-jpg-800.webp",
           "width": 750,
           "height": 563
-        },
-        "1200": {
-          "src": "assets/photos/lahohs-jpg-1200.webp",
-          "width": 750,
-          "height": 563
         }
       }
     },
@@ -1761,17 +1411,12 @@
         "480": {
           "src": "assets/photos/kisra-maker-jpeg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/kisra-maker-jpeg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/kisra-maker-jpeg-1200.webp",
-          "width": 1080,
-          "height": 720
         }
       }
     },
@@ -1785,18 +1430,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/baghrir-1-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/baghrir-1-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/baghrir-1-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -1817,11 +1457,6 @@
           "src": "assets/photos/msemmen-ghrayef-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/msemmen-ghrayef-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -1836,17 +1471,12 @@
         "480": {
           "src": "assets/photos/harcha-homemade-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/harcha-homemade-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/harcha-homemade-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -1867,11 +1497,6 @@
           "src": "assets/photos/huile-d-olive-et-ftaier-mlaoui-jpg-800.webp",
           "width": 800,
           "height": 445
-        },
-        "1200": {
-          "src": "assets/photos/huile-d-olive-et-ftaier-mlaoui-jpg-1200.webp",
-          "width": 1024,
-          "height": 570
         }
       }
     },
@@ -1886,17 +1511,12 @@
         "480": {
           "src": "assets/photos/palestinian-qatayef-jpg-480.webp",
           "width": 480,
-          "height": 221
+          "height": 220
         },
         "800": {
           "src": "assets/photos/palestinian-qatayef-jpg-800.webp",
           "width": 800,
           "height": 368
-        },
-        "1200": {
-          "src": "assets/photos/palestinian-qatayef-jpg-1200.webp",
-          "width": 1200,
-          "height": 553
         }
       }
     },
@@ -1915,11 +1535,6 @@
         },
         "800": {
           "src": "assets/photos/abinci-waina-masa-jpg-800.webp",
-          "width": 720,
-          "height": 642
-        },
-        "1200": {
-          "src": "assets/photos/abinci-waina-masa-jpg-1200.webp",
           "width": 720,
           "height": 642
         }
@@ -1942,11 +1557,6 @@
           "src": "assets/photos/picha-ya-vitumbua-jpg-800.webp",
           "width": 550,
           "height": 367
-        },
-        "1200": {
-          "src": "assets/photos/picha-ya-vitumbua-jpg-1200.webp",
-          "width": 550,
-          "height": 367
         }
       }
     },
@@ -1961,17 +1571,12 @@
         "480": {
           "src": "assets/photos/mofo-gasy-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/mofo-gasy-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/mofo-gasy-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -1986,17 +1591,12 @@
         "480": {
           "src": "assets/photos/heidelberg-motor-show-2008-pancake-jpg-480.webp",
           "width": 480,
-          "height": 313
+          "height": 312
         },
         "800": {
           "src": "assets/photos/heidelberg-motor-show-2008-pancake-jpg-800.webp",
           "width": 800,
           "height": 521
-        },
-        "1200": {
-          "src": "assets/photos/heidelberg-motor-show-2008-pancake-jpg-1200.webp",
-          "width": 1200,
-          "height": 782
         }
       }
     },
@@ -2011,17 +1611,12 @@
         "480": {
           "src": "assets/photos/chapati-1-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/chapati-1-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/chapati-1-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -2042,11 +1637,6 @@
           "src": "assets/photos/g-zleme-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/g-zleme-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2060,18 +1650,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/f-st-kl-kaymakl-muska-katmer-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/f-st-kl-kaymakl-muska-katmer-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/f-st-kl-kaymakl-muska-katmer-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -2092,11 +1677,6 @@
           "src": "assets/photos/kaygana-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/kaygana-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2115,11 +1695,6 @@
         },
         "800": {
           "src": "assets/photos/04-malawach-yemen-crispy-dough-peter-s-since-1969-5027189816-jpg-800.webp",
-          "width": 640,
-          "height": 427
-        },
-        "1200": {
-          "src": "assets/photos/04-malawach-yemen-crispy-dough-peter-s-since-1969-5027189816-jpg-1200.webp",
           "width": 640,
           "height": 427
         }
@@ -2142,11 +1717,6 @@
           "src": "assets/photos/afghan-bolani-jpg-800.webp",
           "width": 600,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/afghan-bolani-jpg-1200.webp",
-          "width": 600,
-          "height": 450
         }
       }
     },
@@ -2161,17 +1731,12 @@
         "480": {
           "src": "assets/photos/azerbaijani-national-dish-qutab-jpg-480.webp",
           "width": 480,
-          "height": 269
+          "height": 268
         },
         "800": {
           "src": "assets/photos/azerbaijani-national-dish-qutab-jpg-800.webp",
           "width": 800,
-          "height": 449
-        },
-        "1200": {
-          "src": "assets/photos/azerbaijani-national-dish-qutab-jpg-1200.webp",
-          "width": 1200,
-          "height": 673
+          "height": 448
         }
       }
     },
@@ -2190,11 +1755,6 @@
         },
         "800": {
           "src": "assets/photos/kuku-sabzi-iranian-food-jpg-800.webp",
-          "width": 500,
-          "height": 347
-        },
-        "1200": {
-          "src": "assets/photos/kuku-sabzi-iranian-food-jpg-1200.webp",
           "width": 500,
           "height": 347
         }
@@ -2217,11 +1777,6 @@
           "src": "assets/photos/mchadi-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/mchadi-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2235,18 +1790,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/pikelets-jpg-480.webp",
-          "width": 480,
-          "height": 723
+          "width": 318,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/pikelets-jpg-800.webp",
-          "width": 800,
-          "height": 1206
-        },
-        "1200": {
-          "src": "assets/photos/pikelets-jpg-1200.webp",
-          "width": 1200,
-          "height": 1809
+          "width": 530,
+          "height": 800
         }
       }
     },
@@ -2265,11 +1815,6 @@
         },
         "800": {
           "src": "assets/photos/pancake-bluefirtree-jpg-800.webp",
-          "width": 675,
-          "height": 506
-        },
-        "1200": {
-          "src": "assets/photos/pancake-bluefirtree-jpg-1200.webp",
           "width": 675,
           "height": 506
         }
@@ -2292,11 +1837,6 @@
           "src": "assets/photos/plian-dosa-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/plian-dosa-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -2311,17 +1851,12 @@
         "480": {
           "src": "assets/photos/masala-dosa-and-vada-jpg-480.webp",
           "width": 480,
-          "height": 374
+          "height": 373
         },
         "800": {
           "src": "assets/photos/masala-dosa-and-vada-jpg-800.webp",
           "width": 800,
           "height": 623
-        },
-        "1200": {
-          "src": "assets/photos/masala-dosa-and-vada-jpg-1200.webp",
-          "width": 1200,
-          "height": 935
         }
       }
     },
@@ -2342,11 +1877,6 @@
           "src": "assets/photos/rava-dosa-jpg-800.webp",
           "width": 800,
           "height": 530
-        },
-        "1200": {
-          "src": "assets/photos/rava-dosa-jpg-1200.webp",
-          "width": 1200,
-          "height": 795
         }
       }
     },
@@ -2360,18 +1890,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/neer-dosa-neer-tellavu-jpg-480.webp",
-          "width": 480,
-          "height": 1068
+          "width": 215,
+          "height": 479
         },
         "800": {
           "src": "assets/photos/neer-dosa-neer-tellavu-jpg-800.webp",
-          "width": 800,
-          "height": 1781
-        },
-        "1200": {
-          "src": "assets/photos/neer-dosa-neer-tellavu-jpg-1200.webp",
-          "width": 1200,
-          "height": 2672
+          "width": 359,
+          "height": 800
         }
       }
     },
@@ -2385,18 +1910,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/set-dosa-1-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/set-dosa-1-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/set-dosa-1-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -2415,11 +1935,6 @@
         },
         "800": {
           "src": "assets/photos/massive-50-rupee-paper-dosa-4437743263-jpg-800.webp",
-          "width": 800,
-          "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/massive-50-rupee-paper-dosa-4437743263-jpg-1200.webp",
           "width": 800,
           "height": 600
         }
@@ -2442,11 +1957,6 @@
           "src": "assets/photos/back-side-of-mix-lentils-uttapam-p-20190410-144927-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/back-side-of-mix-lentils-uttapam-p-20190410-144927-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -2461,17 +1971,12 @@
         "480": {
           "src": "assets/photos/pesarattu-and-ginger-chutney-jpg-480.webp",
           "width": 480,
-          "height": 319
+          "height": 318
         },
         "800": {
           "src": "assets/photos/pesarattu-and-ginger-chutney-jpg-800.webp",
           "width": 800,
           "height": 531
-        },
-        "1200": {
-          "src": "assets/photos/pesarattu-and-ginger-chutney-jpg-1200.webp",
-          "width": 1200,
-          "height": 797
         }
       }
     },
@@ -2492,11 +1997,6 @@
           "src": "assets/photos/adai-dosai-with-chutney-01-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/adai-dosai-with-chutney-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2517,11 +2017,6 @@
           "src": "assets/photos/ragi-dosa-mumbai-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/ragi-dosa-mumbai-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2536,17 +2031,12 @@
         "480": {
           "src": "assets/photos/pesaha-appam-jpg-480.webp",
           "width": 480,
-          "height": 359
+          "height": 358
         },
         "800": {
           "src": "assets/photos/pesaha-appam-jpg-800.webp",
           "width": 800,
           "height": 598
-        },
-        "1200": {
-          "src": "assets/photos/pesaha-appam-jpg-1200.webp",
-          "width": 1200,
-          "height": 898
         }
       }
     },
@@ -2560,18 +2050,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/picture-of-nei-appam-jpg-480.webp",
-          "width": 480,
-          "height": 720
+          "width": 320,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/picture-of-nei-appam-jpg-800.webp",
-          "width": 800,
-          "height": 1200
-        },
-        "1200": {
-          "src": "assets/photos/picture-of-nei-appam-jpg-1200.webp",
-          "width": 1200,
-          "height": 1800
+          "width": 533,
+          "height": 800
         }
       }
     },
@@ -2586,17 +2071,12 @@
         "480": {
           "src": "assets/photos/kuzhi-paniyaram-jpg-480.webp",
           "width": 480,
-          "height": 317
+          "height": 316
         },
         "800": {
           "src": "assets/photos/kuzhi-paniyaram-jpg-800.webp",
           "width": 800,
           "height": 528
-        },
-        "1200": {
-          "src": "assets/photos/kuzhi-paniyaram-jpg-1200.webp",
-          "width": 1200,
-          "height": 793
         }
       }
     },
@@ -2611,17 +2091,12 @@
         "480": {
           "src": "assets/photos/besan-chila-jpg-480.webp",
           "width": 480,
-          "height": 383
+          "height": 382
         },
         "800": {
           "src": "assets/photos/besan-chila-jpg-800.webp",
           "width": 800,
           "height": 638
-        },
-        "1200": {
-          "src": "assets/photos/besan-chila-jpg-1200.webp",
-          "width": 1200,
-          "height": 957
         }
       }
     },
@@ -2635,18 +2110,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/moonglet-chilla-with-curd-and-hot-tea-jpg-480.webp",
-          "width": 480,
-          "height": 670
+          "width": 343,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/moonglet-chilla-with-curd-and-hot-tea-jpg-800.webp",
-          "width": 800,
-          "height": 1117
-        },
-        "1200": {
-          "src": "assets/photos/moonglet-chilla-with-curd-and-hot-tea-jpg-1200.webp",
-          "width": 1200,
-          "height": 1676
+          "width": 572,
+          "height": 800
         }
       }
     },
@@ -2667,11 +2137,6 @@
           "src": "assets/photos/bhajani-thalipeeth-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/bhajani-thalipeeth-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2692,11 +2157,6 @@
           "src": "assets/photos/patishapta-pitha-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/patishapta-pitha-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2710,18 +2170,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/a-man-making-malpua-in-barpeta-assam-jpg-480.webp",
-          "width": 480,
-          "height": 852
+          "width": 270,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/a-man-making-malpua-in-barpeta-assam-jpg-800.webp",
-          "width": 800,
-          "height": 1420
-        },
-        "1200": {
-          "src": "assets/photos/a-man-making-malpua-in-barpeta-assam-jpg-1200.webp",
-          "width": 1200,
-          "height": 2131
+          "width": 450,
+          "height": 800
         }
       }
     },
@@ -2736,17 +2191,12 @@
         "480": {
           "src": "assets/photos/egg-hoppers-sri-lanka-jpg-480.webp",
           "width": 480,
-          "height": 269
+          "height": 268
         },
         "800": {
           "src": "assets/photos/egg-hoppers-sri-lanka-jpg-800.webp",
           "width": 800,
-          "height": 449
-        },
-        "1200": {
-          "src": "assets/photos/egg-hoppers-sri-lanka-jpg-1200.webp",
-          "width": 1200,
-          "height": 673
+          "height": 448
         }
       }
     },
@@ -2761,17 +2211,12 @@
         "480": {
           "src": "assets/photos/chitoi-pitha-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/chitoi-pitha-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/chitoi-pitha-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -2786,17 +2231,12 @@
         "480": {
           "src": "assets/photos/meat-chatamari-jpg-480.webp",
           "width": 480,
-          "height": 290
+          "height": 289
         },
         "800": {
           "src": "assets/photos/meat-chatamari-jpg-800.webp",
           "width": 800,
           "height": 483
-        },
-        "1200": {
-          "src": "assets/photos/meat-chatamari-jpg-1200.webp",
-          "width": 1200,
-          "height": 725
         }
       }
     },
@@ -2816,12 +2256,7 @@
         "800": {
           "src": "assets/photos/amazing-aloo-paratha-and-lovely-lassi-jpg-800.webp",
           "width": 800,
-          "height": 651
-        },
-        "1200": {
-          "src": "assets/photos/amazing-aloo-paratha-and-lovely-lassi-jpg-1200.webp",
-          "width": 1200,
-          "height": 976
+          "height": 650
         }
       }
     },
@@ -2842,11 +2277,6 @@
           "src": "assets/photos/korean-pancake-pajeon-01-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/korean-pancake-pajeon-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2861,17 +2291,12 @@
         "480": {
           "src": "assets/photos/haemul-pajeon-1-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/haemul-pajeon-1-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/haemul-pajeon-1-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -2890,11 +2315,6 @@
         },
         "800": {
           "src": "assets/photos/kimchi-buchimgae-jpg-800.webp",
-          "width": 628,
-          "height": 353
-        },
-        "1200": {
-          "src": "assets/photos/kimchi-buchimgae-jpg-1200.webp",
           "width": 628,
           "height": 353
         }
@@ -2917,11 +2337,6 @@
           "src": "assets/photos/korean-cuisine-bindaetteok-01-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/korean-cuisine-bindaetteok-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2940,11 +2355,6 @@
         },
         "800": {
           "src": "assets/photos/gamja-jeon-1-jpg-800.webp",
-          "width": 683,
-          "height": 454
-        },
-        "1200": {
-          "src": "assets/photos/gamja-jeon-1-jpg-1200.webp",
           "width": 683,
           "height": 454
         }
@@ -2967,11 +2377,6 @@
           "src": "assets/photos/buchujeon-garlic-chive-pancake-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/buchujeon-garlic-chive-pancake-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -2986,17 +2391,12 @@
         "480": {
           "src": "assets/photos/hotteok-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/hotteok-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/hotteok-jpg-1200.webp",
-          "width": 1000,
-          "height": 667
         }
       }
     },
@@ -3017,11 +2417,6 @@
           "src": "assets/photos/okonomiyaki-a-japanese-savory-pancake-in-osaka-japan-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/okonomiyaki-a-japanese-savory-pancake-in-osaka-japan-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -3035,18 +2430,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/a-man-prepares-okonomiyaki-in-hiroshima-2004-08-05-jpg-480.webp",
-          "width": 480,
-          "height": 519
+          "width": 443,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/a-man-prepares-okonomiyaki-in-hiroshima-2004-08-05-jpg-800.webp",
-          "width": 756,
-          "height": 818
-        },
-        "1200": {
-          "src": "assets/photos/a-man-prepares-okonomiyaki-in-hiroshima-2004-08-05-jpg-1200.webp",
-          "width": 756,
-          "height": 818
+          "width": 739,
+          "height": 800
         }
       }
     },
@@ -3067,11 +2457,6 @@
           "src": "assets/photos/monja-after-dscn2754-20111028-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/monja-after-dscn2754-20111028-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -3092,11 +2477,6 @@
           "src": "assets/photos/negiyaki-2013-04-01-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/negiyaki-2013-04-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -3117,11 +2497,6 @@
           "src": "assets/photos/an-dorayaki-roll-jpg-800.webp",
           "width": 800,
           "height": 602
-        },
-        "1200": {
-          "src": "assets/photos/an-dorayaki-roll-jpg-1200.webp",
-          "width": 1200,
-          "height": 903
         }
       }
     },
@@ -3135,18 +2510,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/2010-02-18-imagawayaki-vendor-in-tainan-taiwan-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/2010-02-18-imagawayaki-vendor-in-tainan-taiwan-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/2010-02-18-imagawayaki-vendor-in-tainan-taiwan-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -3160,18 +2530,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/hotcake-1-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/hotcake-1-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/hotcake-1-jpg-1200.webp",
-          "width": 960,
-          "height": 1280
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -3192,11 +2557,6 @@
           "src": "assets/photos/biscoffee-japanese-souffle-pancake-at-cafe-in-melbourne-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/biscoffee-japanese-souffle-pancake-at-cafe-in-melbourne-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -3210,18 +2570,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/takoyaki-close-up-photo-november-2009-jpg-480.webp",
-          "width": 480,
-          "height": 720
+          "width": 320,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/takoyaki-close-up-photo-november-2009-jpg-800.webp",
-          "width": 800,
-          "height": 1200
-        },
-        "1200": {
-          "src": "assets/photos/takoyaki-close-up-photo-november-2009-jpg-1200.webp",
-          "width": 1200,
-          "height": 1800
+          "width": 533,
+          "height": 800
         }
       }
     },
@@ -3242,11 +2597,6 @@
           "src": "assets/photos/jianbing-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/jianbing-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -3266,12 +2616,7 @@
         "800": {
           "src": "assets/photos/2009-03-21-flaky-scallion-pancakes-vendor-in-taipei-jpg-800.webp",
           "width": 800,
-          "height": 531
-        },
-        "1200": {
-          "src": "assets/photos/2009-03-21-flaky-scallion-pancakes-vendor-in-taipei-jpg-1200.webp",
-          "width": 1200,
-          "height": 796
+          "height": 530
         }
       }
     },
@@ -3285,18 +2630,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/20250220-185554-danbing-and-soy-milk-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/20250220-185554-danbing-and-soy-milk-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/20250220-185554-danbing-and-soy-milk-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -3317,11 +2657,6 @@
           "src": "assets/photos/oyster-omelette-at-the-shilin-night-market-4018006359-jpg-800.webp",
           "width": 800,
           "height": 500
-        },
-        "1200": {
-          "src": "assets/photos/oyster-omelette-at-the-shilin-night-market-4018006359-jpg-1200.webp",
-          "width": 1200,
-          "height": 750
         }
       }
     },
@@ -3342,11 +2677,6 @@
           "src": "assets/photos/2026-04-14-18-30-30-egg-foo-young-white-rice-and-an-egg-roll-from-lim-fong-s-del-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/2026-04-14-18-30-30-egg-foo-young-white-rice-and-an-egg-roll-from-lim-fong-s-del-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -3365,11 +2695,6 @@
         },
         "800": {
           "src": "assets/photos/11-lo-bak-go-turnip-cake-east-harbor-seafood-palace-jpg-800.webp",
-          "width": 640,
-          "height": 480
-        },
-        "1200": {
-          "src": "assets/photos/11-lo-bak-go-turnip-cake-east-harbor-seafood-palace-jpg-1200.webp",
           "width": 640,
           "height": 480
         }
@@ -3392,11 +2717,6 @@
           "src": "assets/photos/niourouxianbing-beef-mochi-jpg-800.webp",
           "width": 800,
           "height": 406
-        },
-        "1200": {
-          "src": "assets/photos/niourouxianbing-beef-mochi-jpg-1200.webp",
-          "width": 1200,
-          "height": 609
         }
       }
     },
@@ -3411,17 +2731,12 @@
         "480": {
           "src": "assets/photos/b-nh-x-o-15826153307-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/b-nh-x-o-15826153307-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/b-nh-x-o-15826153307-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -3435,18 +2750,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/b-nh-kh-t-2020-3-28-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/b-nh-kh-t-2020-3-28-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/b-nh-kh-t-2020-3-28-jpg-1200.webp",
-          "width": 960,
-          "height": 1280
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -3467,11 +2777,6 @@
           "src": "assets/photos/ang-thong-2024-khanom-bueang-boran-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/ang-thong-2024-khanom-bueang-boran-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -3486,17 +2791,12 @@
         "480": {
           "src": "assets/photos/dfc-0023-golden-brown-thai-coconut-pancakes-khanom-krok-served-in-small-green-ba-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/dfc-0023-golden-brown-thai-coconut-pancakes-khanom-krok-served-in-small-green-ba-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/dfc-0023-golden-brown-thai-coconut-pancakes-khanom-krok-served-in-small-green-ba-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -3510,18 +2810,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/roti-kluai-khai-chiang-mai-01-jpg-480.webp",
-          "width": 480,
-          "height": 717
+          "width": 321,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/roti-kluai-khai-chiang-mai-01-jpg-800.webp",
-          "width": 800,
-          "height": 1195
-        },
-        "1200": {
-          "src": "assets/photos/roti-kluai-khai-chiang-mai-01-jpg-1200.webp",
-          "width": 1071,
-          "height": 1600
+          "width": 535,
+          "height": 800
         }
       }
     },
@@ -3535,18 +2830,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/apam-balik-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/apam-balik-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/apam-balik-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -3560,18 +2850,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/making-roti-canai-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/making-roti-canai-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/making-roti-canai-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -3586,17 +2871,12 @@
         "480": {
           "src": "assets/photos/proses-membuat-serabi-tradisional-gula-jawa-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/proses-membuat-serabi-tradisional-gula-jawa-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/proses-membuat-serabi-tradisional-gula-jawa-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -3611,17 +2891,12 @@
         "480": {
           "src": "assets/photos/martabak-terang-bulan-jpg-480.webp",
           "width": 480,
-          "height": 347
+          "height": 346
         },
         "800": {
           "src": "assets/photos/martabak-terang-bulan-jpg-800.webp",
           "width": 800,
-          "height": 579
-        },
-        "1200": {
-          "src": "assets/photos/martabak-terang-bulan-jpg-1200.webp",
-          "width": 1200,
-          "height": 868
+          "height": 578
         }
       }
     },
@@ -3635,18 +2910,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/macam-macam-martabak-telur-martabak-har-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/macam-macam-martabak-telur-martabak-har-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/macam-macam-martabak-telur-martabak-har-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -3667,11 +2937,6 @@
           "src": "assets/photos/dadar-gulung-aka-dadara-isi-unti-kelapa-jpg-800.webp",
           "width": 800,
           "height": 610
-        },
-        "1200": {
-          "src": "assets/photos/dadar-gulung-aka-dadara-isi-unti-kelapa-jpg-1200.webp",
-          "width": 1200,
-          "height": 915
         }
       }
     },
@@ -3692,11 +2957,6 @@
           "src": "assets/photos/a-beautiful-kue-ape-jpg-800.webp",
           "width": 800,
           "height": 800
-        },
-        "1200": {
-          "src": "assets/photos/a-beautiful-kue-ape-jpg-1200.webp",
-          "width": 1024,
-          "height": 1024
         }
       }
     },
@@ -3717,11 +2977,6 @@
           "src": "assets/photos/filipino-hotcakes-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/filipino-hotcakes-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -3735,18 +2990,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/prata-in-india-food-court-sg-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/prata-in-india-food-court-sg-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/prata-in-india-food-court-sg-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -3767,11 +3017,6 @@
           "src": "assets/photos/tortillas-de-maiz-blanco-m-xico-01-jpg-800.webp",
           "width": 800,
           "height": 530
-        },
-        "1200": {
-          "src": "assets/photos/tortillas-de-maiz-blanco-m-xico-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 795
         }
       }
     },
@@ -3791,12 +3036,7 @@
         "800": {
           "src": "assets/photos/flour-tortillas-001-jpg-800.webp",
           "width": 800,
-          "height": 531
-        },
-        "1200": {
-          "src": "assets/photos/flour-tortillas-001-jpg-1200.webp",
-          "width": 1200,
-          "height": 796
+          "height": 530
         }
       }
     },
@@ -3817,11 +3057,6 @@
           "src": "assets/photos/crisping-gorditas-september-2023-sarah-stierch-02-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/crisping-gorditas-september-2023-sarah-stierch-02-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -3836,17 +3071,12 @@
         "480": {
           "src": "assets/photos/mercado-de-xochimilco-tlacoyos-jpg-480.webp",
           "width": 480,
-          "height": 322
+          "height": 321
         },
         "800": {
           "src": "assets/photos/mercado-de-xochimilco-tlacoyos-jpg-800.webp",
           "width": 800,
-          "height": 537
-        },
-        "1200": {
-          "src": "assets/photos/mercado-de-xochimilco-tlacoyos-jpg-1200.webp",
-          "width": 1200,
-          "height": 805
+          "height": 536
         }
       }
     },
@@ -3867,11 +3097,6 @@
           "src": "assets/photos/carnitas-sope-los-molcajetes-bar-grill-montecito-blvd-santa-rosa-april-2023-sara-800.webp",
           "width": 800,
           "height": 630
-        },
-        "1200": {
-          "src": "assets/photos/carnitas-sope-los-molcajetes-bar-grill-montecito-blvd-santa-rosa-april-2023-sara-1200.webp",
-          "width": 1200,
-          "height": 945
         }
       }
     },
@@ -3890,11 +3115,6 @@
         },
         "800": {
           "src": "assets/photos/memelas-oaxaquenos-jpg-800.webp",
-          "width": 767,
-          "height": 626
-        },
-        "1200": {
-          "src": "assets/photos/memelas-oaxaquenos-jpg-1200.webp",
           "width": 767,
           "height": 626
         }
@@ -3917,11 +3137,6 @@
           "src": "assets/photos/plain-pupusas-revueltas-jpg-800.webp",
           "width": 800,
           "height": 532
-        },
-        "1200": {
-          "src": "assets/photos/plain-pupusas-revueltas-jpg-1200.webp",
-          "width": 1200,
-          "height": 798
         }
       }
     },
@@ -3935,18 +3150,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/casabe-2-jpg-480.webp",
-          "width": 480,
-          "height": 676
+          "width": 340,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/casabe-2-jpg-800.webp",
-          "width": 800,
-          "height": 1127
-        },
-        "1200": {
-          "src": "assets/photos/casabe-2-jpg-1200.webp",
-          "width": 1200,
-          "height": 1691
+          "width": 567,
+          "height": 800
         }
       }
     },
@@ -3961,17 +3171,12 @@
         "480": {
           "src": "assets/photos/johnnycake-west-indies-01-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/johnnycake-west-indies-01-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/johnnycake-west-indies-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -3992,11 +3197,6 @@
           "src": "assets/photos/accras-boudin-cr-ole-et-ti-punch-01-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/accras-boudin-cr-ole-et-ti-punch-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -4015,11 +3215,6 @@
         },
         "800": {
           "src": "assets/photos/baleada-jpg-800.webp",
-          "width": 600,
-          "height": 406
-        },
-        "1200": {
-          "src": "assets/photos/baleada-jpg-1200.webp",
           "width": 600,
           "height": 406
         }
@@ -4042,11 +3237,6 @@
           "src": "assets/photos/arepa-de-huevo-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/arepa-de-huevo-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -4067,11 +3257,6 @@
           "src": "assets/photos/cachapa-2022-12-03-jpg-800.webp",
           "width": 800,
           "height": 535
-        },
-        "1200": {
-          "src": "assets/photos/cachapa-2022-12-03-jpg-1200.webp",
-          "width": 1200,
-          "height": 803
         }
       }
     },
@@ -4092,11 +3277,6 @@
           "src": "assets/photos/beiju-jpg-800.webp",
           "width": 800,
           "height": 535
-        },
-        "1200": {
-          "src": "assets/photos/beiju-jpg-1200.webp",
-          "width": 1200,
-          "height": 803
         }
       }
     },
@@ -4117,11 +3297,6 @@
           "src": "assets/photos/panqueque2-jpg-800.webp",
           "width": 640,
           "height": 480
-        },
-        "1200": {
-          "src": "assets/photos/panqueque2-jpg-1200.webp",
-          "width": 640,
-          "height": 480
         }
       }
     },
@@ -4136,17 +3311,12 @@
         "480": {
           "src": "assets/photos/crepes-dsc07085-jpg-480.webp",
           "width": 480,
-          "height": 290
+          "height": 289
         },
         "800": {
           "src": "assets/photos/crepes-dsc07085-jpg-800.webp",
           "width": 800,
           "height": 483
-        },
-        "1200": {
-          "src": "assets/photos/crepes-dsc07085-jpg-1200.webp",
-          "width": 1200,
-          "height": 725
         }
       }
     },
@@ -4167,11 +3337,6 @@
           "src": "assets/photos/llapingachos-gebratene-kartoffelpuffer-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/llapingachos-gebratene-kartoffelpuffer-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -4192,11 +3357,6 @@
           "src": "assets/photos/a-lomo-saltado-a-lo-pobre-with-tacu-tacu-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/a-lomo-saltado-a-lo-pobre-with-tacu-tacu-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -4217,11 +3377,6 @@
           "src": "assets/photos/chipa-cocido-quemado-y-mbeju-jpg-800.webp",
           "width": 800,
           "height": 602
-        },
-        "1200": {
-          "src": "assets/photos/chipa-cocido-quemado-y-mbeju-jpg-1200.webp",
-          "width": 1200,
-          "height": 903
         }
       }
     },
@@ -4235,18 +3390,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/bu-uelos-navide-os-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/bu-uelos-navide-os-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/bu-uelos-navide-os-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -4267,11 +3417,6 @@
           "src": "assets/photos/2016-03-22-16-59-06-view-south-into-the-atchafalaya-swamp-from-interstate-10-nea-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/2016-03-22-16-59-06-view-south-into-the-atchafalaya-swamp-from-interstate-10-nea-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -4286,17 +3431,12 @@
         "480": {
           "src": "assets/photos/half-dome-with-eastern-yosemite-valley-jpg-480.webp",
           "width": 480,
-          "height": 304
+          "height": 303
         },
         "800": {
           "src": "assets/photos/half-dome-with-eastern-yosemite-valley-jpg-800.webp",
           "width": 800,
-          "height": 507
-        },
-        "1200": {
-          "src": "assets/photos/half-dome-with-eastern-yosemite-valley-jpg-1200.webp",
-          "width": 1200,
-          "height": 760
+          "height": 506
         }
       }
     },
@@ -4311,17 +3451,12 @@
         "480": {
           "src": "assets/photos/acadia-national-park-maine-d0f17ce3-9ef6-4b96-a485-dd6408c4f67f-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/acadia-national-park-maine-d0f17ce3-9ef6-4b96-a485-dd6408c4f67f-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/acadia-national-park-maine-d0f17ce3-9ef6-4b96-a485-dd6408c4f67f-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4336,17 +3471,12 @@
         "480": {
           "src": "assets/photos/bridge-over-abrahms-creek-cades-cove-great-smoky-mountains-national-park-june-21-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/bridge-over-abrahms-creek-cades-cove-great-smoky-mountains-national-park-june-21-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/bridge-over-abrahms-creek-cades-cove-great-smoky-mountains-national-park-june-21-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4361,17 +3491,12 @@
         "480": {
           "src": "assets/photos/00-5891-monument-valley-navajo-indian-reservation-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/00-5891-monument-valley-navajo-indian-reservation-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/00-5891-monument-valley-navajo-indian-reservation-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4392,11 +3517,6 @@
           "src": "assets/photos/lake-michigan-near-sleeping-bear-dunes-20468631944-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/lake-michigan-near-sleeping-bear-dunes-20468631944-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -4411,17 +3531,12 @@
         "480": {
           "src": "assets/photos/king-kong-beach-na-pali-coast-kauai-hawaii-46227737112-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/king-kong-beach-na-pali-coast-kauai-hawaii-46227737112-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/king-kong-beach-na-pali-coast-kauai-hawaii-46227737112-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4442,11 +3557,6 @@
           "src": "assets/photos/crissy-field-beach-and-golden-gate-bridge-jpg-800.webp",
           "width": 800,
           "height": 224
-        },
-        "1200": {
-          "src": "assets/photos/crissy-field-beach-and-golden-gate-bridge-jpg-1200.webp",
-          "width": 1200,
-          "height": 336
         }
       }
     },
@@ -4467,11 +3577,6 @@
           "src": "assets/photos/ferry-gulch-gros-morne-national-park-canada-jpg-800.webp",
           "width": 800,
           "height": 599
-        },
-        "1200": {
-          "src": "assets/photos/ferry-gulch-gros-morne-national-park-canada-jpg-1200.webp",
-          "width": 1200,
-          "height": 899
         }
       }
     },
@@ -4492,11 +3597,6 @@
           "src": "assets/photos/arlington-row-bibury-jpg-800.webp",
           "width": 800,
           "height": 500
-        },
-        "1200": {
-          "src": "assets/photos/arlington-row-bibury-jpg-1200.webp",
-          "width": 1200,
-          "height": 751
         }
       }
     },
@@ -4517,11 +3617,6 @@
           "src": "assets/photos/collapsed-road-mam-tor-derbyshire-geograph-org-uk-2023335-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/collapsed-road-mam-tor-derbyshire-geograph-org-uk-2023335-jpg-1200.webp",
-          "width": 1024,
-          "height": 768
         }
       }
     },
@@ -4542,11 +3637,6 @@
           "src": "assets/photos/bamburgh-castle-northumberland-geograph-org-uk-3065658-jpg-800.webp",
           "width": 800,
           "height": 585
-        },
-        "1200": {
-          "src": "assets/photos/bamburgh-castle-northumberland-geograph-org-uk-3065658-jpg-1200.webp",
-          "width": 1024,
-          "height": 750
         }
       }
     },
@@ -4567,11 +3657,6 @@
           "src": "assets/photos/pendle-hill-geograph-org-uk-1186037-jpg-800.webp",
           "width": 640,
           "height": 479
-        },
-        "1200": {
-          "src": "assets/photos/pendle-hill-geograph-org-uk-1186037-jpg-1200.webp",
-          "width": 640,
-          "height": 479
         }
       }
     },
@@ -4586,17 +3671,12 @@
         "480": {
           "src": "assets/photos/north-over-the-quiraing-isle-of-skye-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/north-over-the-quiraing-isle-of-skye-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/north-over-the-quiraing-isle-of-skye-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4617,11 +3697,6 @@
           "src": "assets/photos/finist-re-pointe-du-raz-01-jpg-800.webp",
           "width": 800,
           "height": 514
-        },
-        "1200": {
-          "src": "assets/photos/finist-re-pointe-du-raz-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 771
         }
       }
     },
@@ -4635,18 +3710,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/a-family-of-great-crested-grebe-in-boezems-kinderdijk-dsc-4587-jpg-480.webp",
-          "width": 480,
-          "height": 634
+          "width": 363,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/a-family-of-great-crested-grebe-in-boezems-kinderdijk-dsc-4587-jpg-800.webp",
-          "width": 800,
-          "height": 1056
-        },
-        "1200": {
-          "src": "assets/photos/a-family-of-great-crested-grebe-in-boezems-kinderdijk-dsc-4587-jpg-1200.webp",
-          "width": 1200,
-          "height": 1585
+          "width": 606,
+          "height": 800
         }
       }
     },
@@ -4667,11 +3737,6 @@
           "src": "assets/photos/canal-bruges-gant-a-bruges-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/canal-bruges-gant-a-bruges-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -4692,11 +3757,6 @@
           "src": "assets/photos/0626-sailing-ship-g-theborg-in-stockholm-archipelago-port-side-bow-v-p-jpg-800.webp",
           "width": 800,
           "height": 800
-        },
-        "1200": {
-          "src": "assets/photos/0626-sailing-ship-g-theborg-in-stockholm-archipelago-port-side-bow-v-p-jpg-1200.webp",
-          "width": 1200,
-          "height": 1200
         }
       }
     },
@@ -4711,17 +3771,12 @@
         "480": {
           "src": "assets/photos/00-2269-geiranger-norway-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/00-2269-geiranger-norway-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/00-2269-geiranger-norway-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4742,11 +3797,6 @@
           "src": "assets/photos/boatinari1-jpg-800.webp",
           "width": 800,
           "height": 532
-        },
-        "1200": {
-          "src": "assets/photos/boatinari1-jpg-1200.webp",
-          "width": 1200,
-          "height": 798
         }
       }
     },
@@ -4767,11 +3817,6 @@
           "src": "assets/photos/sk-gafoss-iceland-20230501-1444-3968-jpg-800.webp",
           "width": 800,
           "height": 657
-        },
-        "1200": {
-          "src": "assets/photos/sk-gafoss-iceland-20230501-1444-3968-jpg-1200.webp",
-          "width": 1200,
-          "height": 986
         }
       }
     },
@@ -4786,17 +3831,12 @@
         "480": {
           "src": "assets/photos/alpsee-hohenschwangau-castle-alpenrose-neuschwanstein-castle-01-jpg-480.webp",
           "width": 480,
-          "height": 227
+          "height": 226
         },
         "800": {
           "src": "assets/photos/alpsee-hohenschwangau-castle-alpenrose-neuschwanstein-castle-01-jpg-800.webp",
           "width": 800,
           "height": 378
-        },
-        "1200": {
-          "src": "assets/photos/alpsee-hohenschwangau-castle-alpenrose-neuschwanstein-castle-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 567
         }
       }
     },
@@ -4811,17 +3851,12 @@
         "480": {
           "src": "assets/photos/1-lauterbrunnen-valley-2012-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/1-lauterbrunnen-valley-2012-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/1-lauterbrunnen-valley-2012-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4836,17 +3871,12 @@
         "480": {
           "src": "assets/photos/baikal-cape-burhan-olkhon-island-lake-baikal-russia-jpg-480.webp",
           "width": 480,
-          "height": 319
+          "height": 318
         },
         "800": {
           "src": "assets/photos/baikal-cape-burhan-olkhon-island-lake-baikal-russia-jpg-800.webp",
           "width": 800,
           "height": 531
-        },
-        "1200": {
-          "src": "assets/photos/baikal-cape-burhan-olkhon-island-lake-baikal-russia-jpg-1200.webp",
-          "width": 1200,
-          "height": 797
         }
       }
     },
@@ -4860,18 +3890,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/20181006-morskie-oko-tatry-0915-9915-dxo-jpg-480.webp",
-          "width": 480,
-          "height": 721
+          "width": 319,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/20181006-morskie-oko-tatry-0915-9915-dxo-jpg-800.webp",
-          "width": 800,
-          "height": 1202
-        },
-        "1200": {
-          "src": "assets/photos/20181006-morskie-oko-tatry-0915-9915-dxo-jpg-1200.webp",
-          "width": 1200,
-          "height": 1804
+          "width": 532,
+          "height": 800
         }
       }
     },
@@ -4885,18 +3910,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/castle-tower-in-esk-krumlov-20250504-1310-8881-jpg-480.webp",
-          "width": 480,
-          "height": 867
+          "width": 265,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/castle-tower-in-esk-krumlov-20250504-1310-8881-jpg-800.webp",
-          "width": 800,
-          "height": 1445
-        },
-        "1200": {
-          "src": "assets/photos/castle-tower-in-esk-krumlov-20250504-1310-8881-jpg-1200.webp",
-          "width": 1200,
-          "height": 2168
+          "width": 442,
+          "height": 800
         }
       }
     },
@@ -4911,17 +3931,12 @@
         "480": {
           "src": "assets/photos/high-tatras-slovakia-sunset-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/high-tatras-slovakia-sunset-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/high-tatras-slovakia-sunset-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4936,17 +3951,12 @@
         "480": {
           "src": "assets/photos/2026-06-13-fru-ka-gora-national-park-orlove-stene-6-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/2026-06-13-fru-ka-gora-national-park-orlove-stene-6-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/2026-06-13-fru-ka-gora-national-park-orlove-stene-6-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4961,17 +3971,12 @@
         "480": {
           "src": "assets/photos/city-walls-of-dubrovnik-01-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/city-walls-of-dubrovnik-01-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/city-walls-of-dubrovnik-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -4986,17 +3991,12 @@
         "480": {
           "src": "assets/photos/old-town-of-tallinn-06-03-2012-jpg-480.webp",
           "width": 480,
-          "height": 193
+          "height": 192
         },
         "800": {
           "src": "assets/photos/old-town-of-tallinn-06-03-2012-jpg-800.webp",
           "width": 800,
           "height": 321
-        },
-        "1200": {
-          "src": "assets/photos/old-town-of-tallinn-06-03-2012-jpg-1200.webp",
-          "width": 1200,
-          "height": 482
         }
       }
     },
@@ -5010,18 +4010,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/palacio-nacional-da-pena-sintra-portugal-2019-05-25-dd-131-jpg-480.webp",
-          "width": 479,
-          "height": 1053
+          "width": 218,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/palacio-nacional-da-pena-sintra-portugal-2019-05-25-dd-131-jpg-800.webp",
-          "width": 800,
-          "height": 1756
-        },
-        "1200": {
-          "src": "assets/photos/palacio-nacional-da-pena-sintra-portugal-2019-05-25-dd-131-jpg-1200.webp",
-          "width": 1200,
-          "height": 2634
+          "width": 364,
+          "height": 800
         }
       }
     },
@@ -5036,17 +4031,12 @@
         "480": {
           "src": "assets/photos/cinque-terre-1999-view-towards-vernazza-jpg-480.webp",
           "width": 480,
-          "height": 314
+          "height": 313
         },
         "800": {
           "src": "assets/photos/cinque-terre-1999-view-towards-vernazza-jpg-800.webp",
           "width": 800,
           "height": 523
-        },
-        "1200": {
-          "src": "assets/photos/cinque-terre-1999-view-towards-vernazza-jpg-1200.webp",
-          "width": 1200,
-          "height": 785
         }
       }
     },
@@ -5067,11 +4057,6 @@
           "src": "assets/photos/07-17-2012-oia-santorini-greece-15-jpg-800.webp",
           "width": 800,
           "height": 530
-        },
-        "1200": {
-          "src": "assets/photos/07-17-2012-oia-santorini-greece-15-jpg-1200.webp",
-          "width": 1200,
-          "height": 795
         }
       }
     },
@@ -5092,11 +4077,6 @@
           "src": "assets/photos/cliffs-of-the-simien-mountains-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/cliffs-of-the-simien-mountains-jpg-1200.webp",
-          "width": 960,
-          "height": 720
         }
       }
     },
@@ -5117,11 +4097,6 @@
           "src": "assets/photos/mogadishu-daily-life-one-year-after-al-shabaab-07-7731061156-jpg-800.webp",
           "width": 800,
           "height": 574
-        },
-        "1200": {
-          "src": "assets/photos/mogadishu-daily-life-one-year-after-al-shabaab-07-7731061156-jpg-1200.webp",
-          "width": 1200,
-          "height": 861
         }
       }
     },
@@ -5136,17 +4111,12 @@
         "480": {
           "src": "assets/photos/algiers-bay-1899-jpg-480.webp",
           "width": 480,
-          "height": 340
+          "height": 339
         },
         "800": {
           "src": "assets/photos/algiers-bay-1899-jpg-800.webp",
           "width": 800,
-          "height": 567
-        },
-        "1200": {
-          "src": "assets/photos/algiers-bay-1899-jpg-1200.webp",
-          "width": 1200,
-          "height": 850
+          "height": 566
         }
       }
     },
@@ -5167,11 +4137,6 @@
           "src": "assets/photos/cape-coast-castle-cape-coast-ghana-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/cape-coast-castle-cape-coast-ghana-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -5192,11 +4157,6 @@
           "src": "assets/photos/victoria-falls-bridge-africa-092-jpg-800.webp",
           "width": 640,
           "height": 426
-        },
-        "1200": {
-          "src": "assets/photos/victoria-falls-bridge-africa-092-jpg-1200.webp",
-          "width": 640,
-          "height": 426
         }
       }
     },
@@ -5210,18 +4170,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/murchison-falls-uganda-23475021234-jpg-480.webp",
-          "width": 480,
-          "height": 665
+          "width": 346,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/murchison-falls-uganda-23475021234-jpg-800.webp",
-          "width": 800,
-          "height": 1109
-        },
-        "1200": {
-          "src": "assets/photos/murchison-falls-uganda-23475021234-jpg-1200.webp",
-          "width": 1200,
-          "height": 1663
+          "width": 577,
+          "height": 800
         }
       }
     },
@@ -5236,17 +4191,12 @@
         "480": {
           "src": "assets/photos/assal-lake-2024-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/assal-lake-2024-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/assal-lake-2024-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -5260,18 +4210,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/bazaar-liwa-oasis-panoramio-jpg-480.webp",
-          "width": 480,
-          "height": 720
+          "width": 320,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/bazaar-liwa-oasis-panoramio-jpg-800.webp",
-          "width": 800,
-          "height": 1200
-        },
-        "1200": {
-          "src": "assets/photos/bazaar-liwa-oasis-panoramio-jpg-1200.webp",
-          "width": 1200,
-          "height": 1800
+          "width": 533,
+          "height": 800
         }
       }
     },
@@ -5292,11 +4237,6 @@
           "src": "assets/photos/aerial-view-of-cappadocia-from-hot-air-balloon-01-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/aerial-view-of-cappadocia-from-hot-air-balloon-01-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -5310,18 +4250,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/2014-prowincja-kotajk-klasztor-geghard-02-jpg-480.webp",
-          "width": 480,
-          "height": 736
+          "width": 312,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/2014-prowincja-kotajk-klasztor-geghard-02-jpg-800.webp",
-          "width": 800,
-          "height": 1227
-        },
-        "1200": {
-          "src": "assets/photos/2014-prowincja-kotajk-klasztor-geghard-02-jpg-1200.webp",
-          "width": 1200,
-          "height": 1841
+          "width": 521,
+          "height": 800
         }
       }
     },
@@ -5336,17 +4271,12 @@
         "480": {
           "src": "assets/photos/00-1373-milford-sound-new-zealand-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/00-1373-milford-sound-new-zealand-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/00-1373-milford-sound-new-zealand-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -5360,18 +4290,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/ladder-down-to-sua-ocean-trench-samoa-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/ladder-down-to-sua-ocean-trench-samoa-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/ladder-down-to-sua-ocean-trench-samoa-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -5385,18 +4310,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/beach-matamanoa-fiji-jpeg-480.webp",
-          "width": 480,
-          "height": 642
+          "width": 358,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/beach-matamanoa-fiji-jpeg-800.webp",
-          "width": 800,
-          "height": 1071
-        },
-        "1200": {
-          "src": "assets/photos/beach-matamanoa-fiji-jpeg-1200.webp",
-          "width": 1200,
-          "height": 1606
+          "width": 598,
+          "height": 800
         }
       }
     },
@@ -5410,18 +4330,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/1-le-morne-brabant-viewed-from-ebony-forest-chamarel-jpg-480.webp",
-          "width": 480,
-          "height": 568
+          "width": 405,
+          "height": 479
         },
         "800": {
           "src": "assets/photos/1-le-morne-brabant-viewed-from-ebony-forest-chamarel-jpg-800.webp",
-          "width": 800,
-          "height": 947
-        },
-        "1200": {
-          "src": "assets/photos/1-le-morne-brabant-viewed-from-ebony-forest-chamarel-jpg-1200.webp",
-          "width": 1200,
-          "height": 1421
+          "width": 675,
+          "height": 800
         }
       }
     },
@@ -5440,11 +4355,6 @@
         },
         "800": {
           "src": "assets/photos/beauty-of-sigiriya-by-binuka-jpg-800.webp",
-          "width": 700,
-          "height": 466
-        },
-        "1200": {
-          "src": "assets/photos/beauty-of-sigiriya-by-binuka-jpg-1200.webp",
           "width": 700,
           "height": 466
         }
@@ -5467,11 +4377,6 @@
           "src": "assets/photos/1-li-jiang-guilin-yangshuo-2011-jpg-800.webp",
           "width": 800,
           "height": 530
-        },
-        "1200": {
-          "src": "assets/photos/1-li-jiang-guilin-yangshuo-2011-jpg-1200.webp",
-          "width": 1200,
-          "height": 795
         }
       }
     },
@@ -5492,11 +4397,6 @@
           "src": "assets/photos/20160731-bagan-temples-6212-jpg-800.webp",
           "width": 800,
           "height": 530
-        },
-        "1200": {
-          "src": "assets/photos/20160731-bagan-temples-6212-jpg-1200.webp",
-          "width": 1200,
-          "height": 796
         }
       }
     },
@@ -5510,18 +4410,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/2010-chich-n-itz-quintana-roo-m-xico-32-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/2010-chich-n-itz-quintana-roo-m-xico-32-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/2010-chich-n-itz-quintana-roo-m-xico-32-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -5542,11 +4437,6 @@
           "src": "assets/photos/1-malecon-havana-jpg-800.webp",
           "width": 800,
           "height": 597
-        },
-        "1200": {
-          "src": "assets/photos/1-malecon-havana-jpg-1200.webp",
-          "width": 1200,
-          "height": 896
         }
       }
     },
@@ -5567,11 +4457,6 @@
           "src": "assets/photos/blue-mountains-jamaica-jpg-800.webp",
           "width": 800,
           "height": 600
-        },
-        "1200": {
-          "src": "assets/photos/blue-mountains-jamaica-jpg-1200.webp",
-          "width": 1200,
-          "height": 900
         }
       }
     },
@@ -5586,17 +4471,12 @@
         "480": {
           "src": "assets/photos/amphitheatre-nassau-cruise-port-bahamas-2024-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/amphitheatre-nassau-cruise-port-bahamas-2024-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/amphitheatre-nassau-cruise-port-bahamas-2024-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -5617,11 +4497,6 @@
           "src": "assets/photos/maracas-panoramio-jpg-800.webp",
           "width": 800,
           "height": 597
-        },
-        "1200": {
-          "src": "assets/photos/maracas-panoramio-jpg-1200.webp",
-          "width": 1200,
-          "height": 896
         }
       }
     },
@@ -5642,11 +4517,6 @@
           "src": "assets/photos/cement-trail-in-el-yunque-puerto-rico-jpg-800.webp",
           "width": 800,
           "height": 535
-        },
-        "1200": {
-          "src": "assets/photos/cement-trail-in-el-yunque-puerto-rico-jpg-1200.webp",
-          "width": 1200,
-          "height": 803
         }
       }
     },
@@ -5667,11 +4537,6 @@
           "src": "assets/photos/arenal-volcano-costa-rica-jpg-800.webp",
           "width": 800,
           "height": 529
-        },
-        "1200": {
-          "src": "assets/photos/arenal-volcano-costa-rica-jpg-1200.webp",
-          "width": 1200,
-          "height": 794
         }
       }
     },
@@ -5685,18 +4550,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/campanario-de-catedral-de-granada-nicaragua-panoramio-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/campanario-de-catedral-de-granada-nicaragua-panoramio-jpg-800.webp",
-          "width": 800,
-          "height": 1066
-        },
-        "1200": {
-          "src": "assets/photos/campanario-de-catedral-de-granada-nicaragua-panoramio-jpg-1200.webp",
-          "width": 1200,
-          "height": 1600
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -5711,17 +4571,12 @@
         "480": {
           "src": "assets/photos/backlit-margarita-island-sunset-in-las-guevaras-venezuela-capturenx2-jpg-480.webp",
           "width": 480,
-          "height": 323
+          "height": 322
         },
         "800": {
           "src": "assets/photos/backlit-margarita-island-sunset-in-las-guevaras-venezuela-capturenx2-jpg-800.webp",
           "width": 800,
           "height": 538
-        },
-        "1200": {
-          "src": "assets/photos/backlit-margarita-island-sunset-in-las-guevaras-venezuela-capturenx2-jpg-1200.webp",
-          "width": 1200,
-          "height": 808
         }
       }
     },
@@ -5735,16 +4590,11 @@
       "versions": {
         "480": {
           "src": "assets/photos/co-valle-del-cocora-11-17248400531-jpg-480.webp",
-          "width": 480,
-          "height": 720
+          "width": 319,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/co-valle-del-cocora-11-17248400531-jpg-800.webp",
-          "width": 533,
-          "height": 800
-        },
-        "1200": {
-          "src": "assets/photos/co-valle-del-cocora-11-17248400531-jpg-1200.webp",
           "width": 533,
           "height": 800
         }
@@ -5761,17 +4611,12 @@
         "480": {
           "src": "assets/photos/00-1838-iguazu-falls-from-the-brazilian-side-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/00-1838-iguazu-falls-from-the-brazilian-side-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/00-1838-iguazu-falls-from-the-brazilian-side-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -5786,17 +4631,12 @@
         "480": {
           "src": "assets/photos/a-view-towards-torres-del-paine-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/a-view-towards-torres-del-paine-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/a-view-towards-torres-del-paine-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -5811,17 +4651,12 @@
         "480": {
           "src": "assets/photos/munnar-lockhart-tea-plantation-jpg-480.webp",
           "width": 480,
-          "height": 191
+          "height": 190
         },
         "800": {
           "src": "assets/photos/munnar-lockhart-tea-plantation-jpg-800.webp",
           "width": 800,
           "height": 318
-        },
-        "1200": {
-          "src": "assets/photos/munnar-lockhart-tea-plantation-jpg-1200.webp",
-          "width": 1200,
-          "height": 477
         }
       }
     },
@@ -5835,18 +4670,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/cliffs-of-moher-ireland-13-jpg-480.webp",
-          "width": 480,
-          "height": 720
+          "width": 320,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/cliffs-of-moher-ireland-13-jpg-800.webp",
-          "width": 800,
-          "height": 1200
-        },
-        "1200": {
-          "src": "assets/photos/cliffs-of-moher-ireland-13-jpg-1200.webp",
-          "width": 1200,
-          "height": 1800
+          "width": 533,
+          "height": 800
         }
       }
     },
@@ -5865,11 +4695,6 @@
         },
         "800": {
           "src": "assets/photos/cedars-of-god-bsharri-jpg-800.webp",
-          "width": 656,
-          "height": 492
-        },
-        "1200": {
-          "src": "assets/photos/cedars-of-god-bsharri-jpg-1200.webp",
           "width": 656,
           "height": 492
         }
@@ -5892,11 +4717,6 @@
           "src": "assets/photos/elephant-rock-6736020449-jpg-800.webp",
           "width": 800,
           "height": 514
-        },
-        "1200": {
-          "src": "assets/photos/elephant-rock-6736020449-jpg-1200.webp",
-          "width": 1200,
-          "height": 771
         }
       }
     },
@@ -5911,17 +4731,12 @@
         "480": {
           "src": "assets/photos/denali-national-park-wonder-lake-3264px-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/denali-national-park-wonder-lake-3264px-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/denali-national-park-wonder-lake-3264px-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     },
@@ -5935,18 +4750,13 @@
       "versions": {
         "480": {
           "src": "assets/photos/bear-mountain-bridge-081008-740-jpg-480.webp",
-          "width": 480,
-          "height": 640
+          "width": 360,
+          "height": 480
         },
         "800": {
           "src": "assets/photos/bear-mountain-bridge-081008-740-jpg-800.webp",
-          "width": 768,
-          "height": 1024
-        },
-        "1200": {
-          "src": "assets/photos/bear-mountain-bridge-081008-740-jpg-1200.webp",
-          "width": 768,
-          "height": 1024
+          "width": 600,
+          "height": 800
         }
       }
     },
@@ -5967,11 +4777,6 @@
           "src": "assets/photos/aiguille-et-porte-d-aval-jpg-800.webp",
           "width": 800,
           "height": 450
-        },
-        "1200": {
-          "src": "assets/photos/aiguille-et-porte-d-aval-jpg-1200.webp",
-          "width": 1200,
-          "height": 675
         }
       }
     },
@@ -5992,11 +4797,6 @@
           "src": "assets/photos/mons-klint-1-jpg-800.webp",
           "width": 800,
           "height": 535
-        },
-        "1200": {
-          "src": "assets/photos/mons-klint-1-jpg-1200.webp",
-          "width": 1200,
-          "height": 803
         }
       }
     },
@@ -6011,17 +4811,12 @@
         "480": {
           "src": "assets/photos/hopewell-rocks1-jpg-480.webp",
           "width": 480,
-          "height": 320
+          "height": 319
         },
         "800": {
           "src": "assets/photos/hopewell-rocks1-jpg-800.webp",
           "width": 800,
           "height": 533
-        },
-        "1200": {
-          "src": "assets/photos/hopewell-rocks1-jpg-1200.webp",
-          "width": 1200,
-          "height": 800
         }
       }
     }

@@ -453,7 +453,7 @@ function photoRecord(slug) {
   const assignment = photoManifest.assignments[slug];
   if (!assignment) throw new Error(`No photo assignment for ${slug}`);
   const photo = photoManifest.photos[assignment.photoId];
-  if (!photo?.versions?.["1200"]) throw new Error(`Missing photo file for ${slug}`);
+  if (!photo?.versions?.["800"]) throw new Error(`Missing photo file for ${slug}`);
   return { ...assignment, photo };
 }
 
@@ -468,12 +468,11 @@ function figureHtml(record, { eager = false, className = "photo-figure", sizes =
   const photo = record.photo;
   const small = photo.versions["480"];
   const medium = photo.versions["800"];
-  const large = photo.versions["1200"];
   const kind = record.kind === "place" ? `<span class="photo-kind">${escapeHtml(record.label)}</span> ` : "";
   const priority = eager ? ' fetchpriority="high"' : "";
   return `<figure class="${className}${record.kind === "place" ? " is-place" : " is-dish"}">
     <picture>
-      <source type="image/webp" srcset="${small.src} 480w, ${medium.src} 800w, ${large.src} 1200w" sizes="${escapeHtml(sizes)}">
+      <source type="image/webp" srcset="${small.src} 480w, ${medium.src} 800w" sizes="${escapeHtml(sizes)}">
       <img src="${medium.src}" alt="${escapeHtml(record.alt)}" width="${medium.width}" height="${medium.height}" loading="${eager ? "eager" : "lazy"}" decoding="async"${priority}>
     </picture>
     <figcaption>${kind}${escapeHtml(photo.title)} · ${creditHtml(photo)}</figcaption>
@@ -489,7 +488,7 @@ const pancakes = SAUCES.map((pancake) => {
   return {
     ...pancake,
     photoRecord: record,
-    photo: record.photo.versions["1200"].src
+    photo: record.photo.versions["800"].src
   };
 });
 pancakes.sort((a, b) => a.name.localeCompare(b.name));
