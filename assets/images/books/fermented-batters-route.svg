@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#f4efe4"/>
+  <rect x="8" y="8" width="784" height="344" fill="none" stroke="#e2b007" stroke-width="6"/>
+  <path d="M567.4 145.2 L480.3 155.6 L481.6 165.3 L461.0 155.8 L493.1 171.7 L417.5 165.5 L563.3 167.4 L496.8 154.7" fill="none" stroke="#1e4d5c" stroke-width="3" stroke-dasharray="7 6"/>
+  <circle cx="567.4" cy="145.2" r="5" fill="#8c2f1e"/><circle cx="480.3" cy="155.6" r="5" fill="#8c2f1e"/><circle cx="481.6" cy="165.3" r="5" fill="#8c2f1e"/><circle cx="461.0" cy="155.8" r="5" fill="#8c2f1e"/><circle cx="493.1" cy="171.7" r="5" fill="#8c2f1e"/><circle cx="417.5" cy="165.5" r="5" fill="#8c2f1e"/><circle cx="563.3" cy="167.4" r="5" fill="#8c2f1e"/><circle cx="496.8" cy="154.7" r="5" fill="#8c2f1e"/>
+  <text x="575.4" y="137.2" font-family="Georgia, serif" font-size="12">India</text><text x="489.6" y="157.3" font-family="Georgia, serif" font-size="12">Ethiopia</text><text x="501.1" y="163.7" font-family="Georgia, serif" font-size="12">Somalia</text><text x="571.3" y="159.4" font-family="Georgia, serif" font-size="12">Sri Lanka</text><text x="504.8" y="146.7" font-family="Georgia, serif" font-size="12">Yemen</text>
+</svg>

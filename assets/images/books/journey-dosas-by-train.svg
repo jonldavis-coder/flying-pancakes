@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#f4efe4"/>
+  <rect x="8" y="8" width="784" height="344" fill="none" stroke="#e2b007" stroke-width="6"/>
+  <path d="M562.3 159.1 L556.9 159.2 L551.3 159.4 L554.2 164.1 L563.1 153.6 L556.1 134.2 L561.5 168.9" fill="none" stroke="#1e4d5c" stroke-width="3" stroke-dasharray="7 6"/>
+  <circle cx="562.3" cy="159.1" r="5" fill="#8c2f1e"/><circle cx="556.9" cy="159.2" r="5" fill="#8c2f1e"/><circle cx="551.3" cy="159.4" r="5" fill="#8c2f1e"/><circle cx="554.2" cy="164.1" r="5" fill="#8c2f1e"/><circle cx="563.1" cy="153.6" r="5" fill="#8c2f1e"/><circle cx="556.1" cy="134.2" r="5" fill="#8c2f1e"/><circle cx="561.5" cy="168.9" r="5" fill="#8c2f1e"/>
+  <text x="570.3" y="151.1" font-family="Georgia, serif" font-size="12">Plain Dosa</text><text x="559.3" y="151.4" font-family="Georgia, serif" font-size="12">Neer Dosa</text><text x="571.1" y="145.6" font-family="Georgia, serif" font-size="12">Pesarattu</text><text x="569.5" y="160.9" font-family="Georgia, serif" font-size="12">Sri Lankan Hoppers</text>
+</svg>

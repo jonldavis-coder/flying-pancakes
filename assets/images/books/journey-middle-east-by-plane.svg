@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#f4efe4"/>
+  <rect x="8" y="8" width="784" height="344" fill="none" stroke="#e2b007" stroke-width="6"/>
+  <path d="M471.8 125.8 L489.4 155.4 L489.4 155.4 L458.6 114.4 L471.8 125.8" fill="none" stroke="#1e4d5c" stroke-width="3" stroke-dasharray="7 6"/>
+  <circle cx="471.8" cy="125.8" r="5" fill="#8c2f1e"/><circle cx="489.4" cy="155.4" r="5" fill="#8c2f1e"/><circle cx="489.4" cy="155.4" r="5" fill="#8c2f1e"/><circle cx="458.6" cy="114.4" r="5" fill="#8c2f1e"/><circle cx="471.8" cy="125.8" r="5" fill="#8c2f1e"/>
+  <text x="479.8" y="117.8" font-family="Georgia, serif" font-size="12">Qatayef</text><text x="497.4" y="147.4" font-family="Georgia, serif" font-size="12">Yemeni Lahoh</text><text x="497.4" y="147.4" font-family="Georgia, serif" font-size="12">Malawach</text><text x="466.6" y="106.4" font-family="Georgia, serif" font-size="12">Gözleme</text><text x="479.8" y="117.8" font-family="Georgia, serif" font-size="12">Manakish</text>
+</svg>

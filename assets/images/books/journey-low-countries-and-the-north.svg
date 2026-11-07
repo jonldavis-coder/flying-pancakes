@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#f4efe4"/>
+  <rect x="8" y="8" width="784" height="344" fill="none" stroke="#e2b007" stroke-width="6"/>
+  <path d="M409.9 96.2 L410.4 96.7 L413.3 95.2 L436.5 85.1 L410.8 83.4 L425.4 90.9 L450.4 83.7" fill="none" stroke="#1e4d5c" stroke-width="3" stroke-dasharray="7 6"/>
+  <circle cx="409.9" cy="96.2" r="5" fill="#8c2f1e"/><circle cx="410.4" cy="96.7" r="5" fill="#8c2f1e"/><circle cx="413.3" cy="95.2" r="5" fill="#8c2f1e"/><circle cx="436.5" cy="85.1" r="5" fill="#8c2f1e"/><circle cx="410.8" cy="83.4" r="5" fill="#8c2f1e"/><circle cx="425.4" cy="90.9" r="5" fill="#8c2f1e"/><circle cx="450.4" cy="83.7" r="5" fill="#8c2f1e"/>
+  <text x="417.9" y="88.2" font-family="Georgia, serif" font-size="12">Dutch Pannenkoeken</text><text x="421.3" y="87.2" font-family="Georgia, serif" font-size="12">Spekdik</text><text x="418.8" y="75.4" font-family="Georgia, serif" font-size="12">Lefse</text><text x="458.4" y="75.7" font-family="Georgia, serif" font-size="12">Finnish Pannukakku</text>
+</svg>

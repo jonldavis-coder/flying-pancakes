@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#f4efe4"/>
+  <rect x="8" y="8" width="784" height="344" fill="none" stroke="#e2b007" stroke-width="6"/>
+  <path d="M637.0 117.4 L635.4 116.2 L645.8 140.0 L674.0 124.5 L667.9 125.0 L656.8 119.9 L656.8 119.9" fill="none" stroke="#1e4d5c" stroke-width="3" stroke-dasharray="7 6"/>
+  <circle cx="637.0" cy="117.4" r="5" fill="#8c2f1e"/><circle cx="635.4" cy="116.2" r="5" fill="#8c2f1e"/><circle cx="645.8" cy="140.0" r="5" fill="#8c2f1e"/><circle cx="674.0" cy="124.5" r="5" fill="#8c2f1e"/><circle cx="667.9" cy="125.0" r="5" fill="#8c2f1e"/><circle cx="656.8" cy="119.9" r="5" fill="#8c2f1e"/><circle cx="656.8" cy="119.9" r="5" fill="#8c2f1e"/>
+  <text x="645.0" y="109.4" font-family="Georgia, serif" font-size="12">Jianbing</text><text x="653.8" y="132.0" font-family="Georgia, serif" font-size="12">Taiwanese Danbing</text><text x="675.9" y="117.0" font-family="Georgia, serif" font-size="12">Hiroshima Okonomiyaki</text><text x="664.8" y="111.9" font-family="Georgia, serif" font-size="12">Bindaetteok</text>
+</svg>

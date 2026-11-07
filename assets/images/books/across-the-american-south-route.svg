@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#f4efe4"/>
+  <rect x="8" y="8" width="784" height="344" fill="none" stroke="#e2b007" stroke-width="6"/>
+  <path d="M229.3 126.0 L238.4 127.6 L236.5 123.6 L224.5 122.1 L217.9 132.1 L215.7 131.3" fill="none" stroke="#1e4d5c" stroke-width="3" stroke-dasharray="7 6"/>
+  <circle cx="229.3" cy="126.0" r="5" fill="#8c2f1e"/><circle cx="238.4" cy="127.6" r="5" fill="#8c2f1e"/><circle cx="236.5" cy="123.6" r="5" fill="#8c2f1e"/><circle cx="224.5" cy="122.1" r="5" fill="#8c2f1e"/><circle cx="217.9" cy="132.1" r="5" fill="#8c2f1e"/><circle cx="215.7" cy="131.3" r="5" fill="#8c2f1e"/>
+  <text x="237.3" y="118.0" font-family="Georgia, serif" font-size="12">United States</text><text x="246.4" y="119.6" font-family="Georgia, serif" font-size="12">United States</text><text x="244.5" y="115.6" font-family="Georgia, serif" font-size="12">United States</text><text x="232.5" y="114.1" font-family="Georgia, serif" font-size="12">United States</text><text x="225.9" y="124.1" font-family="Georgia, serif" font-size="12">United States</text><text x="223.7" y="123.3" font-family="Georgia, serif" font-size="12">United States</text>
+</svg>

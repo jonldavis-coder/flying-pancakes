@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/flying-pancakes/">
+  <title>Map · Flying Pancakes</title>
+  <meta name="description" content="An interactive world map of pancake origins. Choose a country to list its pancakes, and filter by region, type, heat, use, and diet.">
+  <meta name="theme-color" content="#1e4d5c">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,680&amp;family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <link rel="canonical" href="https://jonldavis-coder.github.io/flying-pancakes/map/">
+  
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css"><meta property="og:title" content="Pancake map">
+  <meta property="og:description" content="World map of pancake origins.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jonldavis-coder.github.io/flying-pancakes/map/">
+  <meta property="og:image" content="https://jonldavis-coder.github.io/flying-pancakes/assets/images/hero.svg">
+</head>
+<body data-page="map" data-print="full">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="frame">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="8" fill="#e2b007"/>
+            <rect x="6" y="6" width="52" height="52" fill="#1e4d5c"/>
+            <circle cx="34" cy="36" r="12" fill="none" stroke="#f7f1e4" stroke-width="2"/>
+            <path d="M12 20l16-3-10-12 3 14 12 2-14 3 10 12-3-14z" fill="#f7f1e4"/>
+          </svg>
+          <span class="brand-text">
+            <span class="brand-kicker">Field guide</span>
+            <span class="brand-name">Flying Pancakes</span>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" aria-label="Primary">
+          <a href="index.html">Field guide</a>
+          <a href="map/" aria-current="page">Route map</a>
+          <a href="journeys/">Journeys</a>
+          <a href="explore/">Explore</a>
+          <a href="books/">Recipe books</a>
+          <a href="shop/">Shop</a>
+          <a href="learn/pancake-101/">Pancake 101</a>
+          <a href="submit.html">Submit a pancake</a>
+          <a href="about/">About</a>
+        </nav>
+        <div id="auth-slot"></div>
+      </div>
+      <p class="issue-line">281 pancakes in this issue · Growing to 1,000</p>
+    </header>
+    <p id="demo-banner" class="demo-banner" role="status" hidden></p>
+    <noscript>
+      <p class="demo-banner">JavaScript is off. You can still read the field guide. Search, the shaded map, and community notes need JavaScript.</p>
+    </noscript>
+    <main id="content" tabindex="-1">
+      <div class="wrap">
+      <aside class="ad-slot" data-ad-slot="map_top" hidden></aside>
+      <p class="eyebrow">Atlas</p>
+      <h1>The route map</h1>
+      <p class="lede">The lines are journeys. A small vehicle sits on each leg: balloon, plane, train, or boat. Countries are still shaded by how many pancakes name them, so you can leave the route and look up a place. The list under the map works without JavaScript.</p>
+      <div class="journey-key">
+        <a class="journey-pill" href="journeys/who-settled-the-flavor/"><span class="vehicle-dot vehicle-train" aria-hidden="true"></span>Who settled the flavor</a><a class="journey-pill" href="journeys/british-isles-by-train/"><span class="vehicle-dot vehicle-train" aria-hidden="true"></span>The British Isles by train</a><a class="journey-pill" href="journeys/crepes-by-balloon/"><span class="vehicle-dot vehicle-balloon" aria-hidden="true"></span>Crêpes by balloon</a><a class="journey-pill" href="journeys/butter-week-by-train/"><span class="vehicle-dot vehicle-train" aria-hidden="true"></span>Butter week by train</a><a class="journey-pill" href="journeys/low-countries-and-the-north/"><span class="vehicle-dot vehicle-boat" aria-hidden="true"></span>Poffertjes to the north</a><a class="journey-pill" href="journeys/africa-by-plane/"><span class="vehicle-dot vehicle-plane" aria-hidden="true"></span>Africa by plane</a><a class="journey-pill" href="journeys/dosas-by-train/"><span class="vehicle-dot vehicle-train" aria-hidden="true"></span>Dosas by train</a><a class="journey-pill" href="journeys/east-asia-by-boat/"><span class="vehicle-dot vehicle-boat" aria-hidden="true"></span>East Asia by boat</a><a class="journey-pill" href="journeys/caribbean-and-the-south-by-boat/"><span class="vehicle-dot vehicle-boat" aria-hidden="true"></span>Caribbean and the south by boat</a><a class="journey-pill" href="journeys/middle-east-by-plane/"><span class="vehicle-dot vehicle-plane" aria-hidden="true"></span>Ramadan and the griddle</a>
+      </div>
+      <form id="filters" class="filters" role="search">
+      <div class="filter-grid">
+        <label>Search
+          <input name="q" type="search" placeholder="Dosa, Dakar, buckwheat…" autocomplete="off">
+        </label>
+        <label>Region
+          <select name="region"><option value="">All regions</option><option value="North Africa">North Africa</option><option value="West Africa">West Africa</option><option value="Central Africa">Central Africa</option><option value="East Africa">East Africa</option><option value="Southern Africa">Southern Africa</option><option value="Middle East">Middle East</option><option value="Caucasus">Caucasus</option><option value="Central Asia">Central Asia</option><option value="South Asia">South Asia</option><option value="Southeast Asia">Southeast Asia</option><option value="East Asia">East Asia</option><option value="Western Europe">Western Europe</option><option value="Northern Europe">Northern Europe</option><option value="Eastern Europe">Eastern Europe</option><option value="Southern Europe">Southern Europe</option><option value="North America">North America</option><option value="Mexico &amp; Central America">Mexico &amp; Central America</option><option value="Caribbean">Caribbean</option><option value="South America">South America</option><option value="Oceania">Oceania</option></select>
+        </label>
+        <label>Base type
+          <select name="type"><option value="">All types</option><option value="wheat">Wheat batter</option><option value="crepe">Crepe</option><option value="buckwheat">Buckwheat</option><option value="corn">Corn griddle</option><option value="rice">Rice batter</option><option value="fermented">Fermented batter</option><option value="potato">Potato cake</option><option value="vegetable">Vegetable pancake</option><option value="oat">Oatcake</option><option value="cassava">Cassava bread</option><option value="chickpea">Chickpea batter</option><option value="filled">Filled pancake</option><option value="oven">Oven pancake</option><option value="fritter">Fried cake</option><option value="cheese">Cheese pancake</option><option value="egg">Egg cake</option><option value="flatbread">Griddled flatbread</option></select>
+        </label>
+        <label>Heat
+          <select name="heat"><option value="">Any heat</option><option value="none">No chili heat</option><option value="mild">Mild</option><option value="medium">Medium</option><option value="hot">Hot</option><option value="extra-hot">Extra hot</option></select>
+        </label>
+        <label>Use
+          <select name="use"><option value="">Any use</option><option value="breakfast">Breakfast</option><option value="savory">Savory meal</option><option value="dessert">Dessert</option><option value="street">Street food</option><option value="holiday">Holiday table</option><option value="side">Side dish</option><option value="snack">Snack</option><option value="bread">Bread course</option><option value="stuffed">Stuffed or filled</option><option value="supper">Supper</option></select>
+        </label>
+        <label>Diet
+          <select name="diet"><option value="">Any diet</option><option value="vegetarian">Vegetarian</option><option value="vegan">Vegan</option><option value="gluten-free">Gluten-free</option><option value="dairy-free">Dairy-free</option><option value="nut-free">Nut-free</option></select>
+        </label>
+        <label>Country
+          <select name="country"><option value="">All countries</option><option value="AF">Afghanistan</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AR">Argentina</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BD">Bangladesh</option><option value="BY">Belarus</option><option value="BZ">Belize</option><option value="BO">Bolivia</option><option value="BA">Bosnia and Herzegovina</option><option value="BR">Brazil</option><option value="BG">Bulgaria</option><option value="KH">Cambodia</option><option value="CA">Canada</option><option value="CL">Chile</option><option value="CN">China</option><option value="CO">Colombia</option><option value="CR">Costa Rica</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CZ">Czechia</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FI">Finland</option><option value="FR">France</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GR">Greece</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HN">Honduras</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IE">Ireland</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JO">Jordan</option><option value="KE">Kenya</option><option value="XK">Kosovo</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LT">Lithuania</option><option value="MG">Madagascar</option><option value="MY">Malaysia</option><option value="MX">Mexico</option><option value="MA">Morocco</option><option value="MM">Myanmar</option><option value="NL">Netherlands</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NO">Norway</option><option value="PS">Palestine</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RS">Serbia</option><option value="SG">Singapore</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="KR">South Korea</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="UA">Ukraine</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UY">Uruguay</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="YE">Yemen</option></select>
+        </label>
+      </div>
+    </form>
+      <p id="map-status" class="results-count" role="status">281 pancakes for all countries.</p>
+      <div id="world-map" role="application" aria-label="World map of pancake origins"></div>
+      <div id="country-results" class="section-rule"></div>
+    </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <nav aria-label="Footer">
+          <a href="journeys/">Journeys</a>
+          <a href="features/who-settled-the-flavor/">Who settled the flavor</a>
+          <a href="shop/">Shop</a>
+          <a href="books/">Recipe books</a>
+          <a href="about/">About</a>
+          <a href="learn/pancake-101/">Pancake 101</a>
+          <a href="learn/glossary/">Glossary</a>
+          <a href="guidelines/">Community guidelines</a>
+          <a href="affiliate/">Affiliate disclosure</a>
+          <a href="privacy/">Privacy</a>
+          <a href="terms/">Terms</a>
+          <a href="submit.html">Submit a pancake</a>
+        </nav>
+        <p id="mode-note"></p>
+        <p>Recipes are for home cooking. They are not professional food-safety, medical, or dietary advice. The shelf is growing toward 1,000 pancakes. Counts on this site are the edited entries in this issue, nothing else.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="assets/vendor/leaflet/leaflet.js"></script>
+  <script src="config.js"></script>
+  <script src="ads-config.js"></script>
+  <script type="module" src="assets/js/boot.js"></script>
+</body>
+</html>

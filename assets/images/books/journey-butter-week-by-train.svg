@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#f4efe4"/>
+  <rect x="8" y="8" width="784" height="344" fill="none" stroke="#e2b007" stroke-width="6"/>
+  <path d="M398.6 96.6 L387.3 94.6 L404.8 101.8 L450.4 83.7 L476.1 90.8 L461.3 84.1" fill="none" stroke="#1e4d5c" stroke-width="3" stroke-dasharray="7 6"/>
+  <circle cx="398.6" cy="96.6" r="5" fill="#8c2f1e"/><circle cx="387.3" cy="94.6" r="5" fill="#8c2f1e"/><circle cx="404.8" cy="101.8" r="5" fill="#8c2f1e"/><circle cx="450.4" cy="83.7" r="5" fill="#8c2f1e"/><circle cx="476.1" cy="90.8" r="5" fill="#8c2f1e"/><circle cx="461.3" cy="84.1" r="5" fill="#8c2f1e"/>
+  <text x="406.6" y="88.6" font-family="Georgia, serif" font-size="12">English Shrove Tuesday Pancakes</text><text x="395.3" y="86.6" font-family="Georgia, serif" font-size="12">Irish Shrove Tuesday Pancakes</text><text x="412.8" y="93.8" font-family="Georgia, serif" font-size="12">Sweet Crêpes</text><text x="458.4" y="75.7" font-family="Georgia, serif" font-size="12">Finnish Blini</text><text x="484.1" y="82.8" font-family="Georgia, serif" font-size="12">Russian Blini</text><text x="469.3" y="76.1" font-family="Georgia, serif" font-size="12">Buckwheat Blini</text>
+</svg>

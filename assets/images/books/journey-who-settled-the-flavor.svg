@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360">
+  <rect width="800" height="360" fill="#f4efe4"/>
+  <rect x="8" y="8" width="784" height="344" fill="none" stroke="#e2b007" stroke-width="6"/>
+  <path d="M255.5 113.5 L261.3 104.5 L229.3 126.0 L233.1 123.0 L250.4 114.9 L211.4 108.0 L185.8 122.9 L152.6 103.8" fill="none" stroke="#1e4d5c" stroke-width="3" stroke-dasharray="7 6"/>
+  <circle cx="255.5" cy="113.5" r="5" fill="#8c2f1e"/><circle cx="261.3" cy="104.5" r="5" fill="#8c2f1e"/><circle cx="229.3" cy="126.0" r="5" fill="#8c2f1e"/><circle cx="233.1" cy="123.0" r="5" fill="#8c2f1e"/><circle cx="250.4" cy="114.9" r="5" fill="#8c2f1e"/><circle cx="211.4" cy="108.0" r="5" fill="#8c2f1e"/><circle cx="185.8" cy="122.9" r="5" fill="#8c2f1e"/><circle cx="152.6" cy="103.8" r="5" fill="#8c2f1e"/>
+  <text x="263.5" y="105.5" font-family="Georgia, serif" font-size="12">Rhode Island Thin Johnnycakes</text><text x="237.3" y="118.0" font-family="Georgia, serif" font-size="12">Hoe Cakes</text><text x="258.4" y="106.9" font-family="Georgia, serif" font-size="12">Potato Latkes</text><text x="193.8" y="114.9" font-family="Georgia, serif" font-size="12">New Mexico Blue Corn Pancakes</text><text x="160.6" y="95.8" font-family="Georgia, serif" font-size="12">Seattle Dutch Baby</text>
+</svg>
