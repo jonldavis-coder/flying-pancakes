@@ -1,6 +1,6 @@
 # Flying Pancakes of the World
 
-A travel journal of the world’s pancakes and their griddled relatives. This issue’s count is the number of edited entries. The journal is growing to **1,000**.
+Pancakes and their griddled relatives, from around the world. This issue’s count is the number of edited entries. The journal is growing to **1,000**.
 
 Each pancake has a workable home recipe, an origin, a history, a cultural note, and a **Why it tastes this way** section that ties grain, climate, trade, migration, or a feast day to the flavor. An **Authentic touch** is the cooking tip. Disputed origin stories are labeled or left out.
 

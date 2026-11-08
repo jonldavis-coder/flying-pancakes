@@ -64,7 +64,6 @@ export function page({
             <path d="M12 20l16-3-10-12 3 14 12 2-14 3 10 12-3-14z" fill="#f7f1e4"/>
           </svg>
           <span class="brand-text">
-            <span class="brand-kicker">Travel journal</span>
             <span class="brand-name">Flying Pancakes</span>
           </span>
         </a>
